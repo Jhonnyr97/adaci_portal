@@ -1,0 +1,2484 @@
+# Webalizer V2.23-08 Incremental Data - 05/05/2022 02:40:50
+2022 5 5 2 40 50
+7630 4769 1 1057 110 14 215457412 2722 290 1
+1 85 2936 3 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+4751 2208 90159463 1 1905 173
+2675 2376 116665632 1 749 108
+204 185 8632317 1 68 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+465 417 10803254 114
+0 0 0 0
+85 83 4874534 29
+254 188 7204965 80
+2940 1239 52368209 1163
+530 334 12106306 166
+361 161 5456340 163
+343 117 3399737 179
+1541 1251 67520052 485
+0 0 0 0
+1 0 381 1
+36 21 1471059 8
+442 386 20554615 143
+497 450 23609411 164
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+135 122 6088549 27
+0
+0
+0
+4769
+0
+0
+0
+0
+0
+0
+0
+16
+498
+0
+1790
+0
+0
+0
+484
+0
+1
+42
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+30
+0
+0
+0
+0
+0
+# -urls- 
+/formanagement/wp-includes/js/media-views.min.js
+0 1 0 111410 0 0
+/formanagement/wp-includes/js/dist/data-controls.min.js
+0 1 0 2280 0 0
+/wp-content/themes/twentytwentytwo/screenshot.png
+1 1 0 162290 0 0
+/formanagement/wp-includes/js/dist/autop.min.js
+0 1 0 6307 0 0
+/formanagement/wp-includes/js/dist/dom.min.js
+0 1 0 13546 0 0
+/wp-content/themes/twentytwenty/print.css
+0 10 0 27020 0 0
+/shop/wp-admin/edit.php
+0 16 0 2404665 0 0
+/wp-admin/options-permalink.php
+0 5 0 194898 0 0
+/shop/wp-includes/js/tinymce/tinymce.min.js
+0 3 0 1096710 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+0 11 0 124663 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category-list.js
+0 5 0 4445 0 0
+/formanagemntshop/wp-includes/js/dist/url.min.js
+0 2 0 11396 0 0
+/shop/wp-includes/js/clipboard.min.js
+0 7 0 74249 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.stack.min.js
+0 16 0 10200 0 0
+/shop/wp-includes/js/dist/html-entities.min.js
+0 5 0 7080 0 0
+/wp-content/uploads/2022/05/hoodie-with-zipper-2-150x150.jpg
+1 2 0 3612 0 0
+/formanagemnt/wp-includes/js/jquery/jquery.min.js
+0 1 0 89521 0 0
+/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+0 22 0 70430 0 0
+/formanagement/wp-includes/js/dist/vendor/lodash.min.js
+0 1 0 73015 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.time.min.js
+0 16 0 36712 0 0
+/shop/wp-includes/js/thickbox/thickbox.js
+0 7 0 92358 0 0
+/wp-json/wp/v2/pages
+0 6 0 73908 2 0
+/wp-includes/js/dist/vendor/wp-polyfill.min.js
+0 9 0 173349 0 0
+/shop/wp-includes/js/backbone.min.js
+0 5 0 118970 0 0
+/formanagement/wp-admin/load-scripts.php
+0 4 0 464705 0 1
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stock-filter.js
+0 3 0 56571 0 0
+/shop/wp-includes/js/dist/keycodes.min.js
+0 5 0 20715 0 0
+/shop/wp-admin/js/user-profile.min.js
+0 6 0 36612 0 0
+/wp-json/wc-admin/onboarding/tasks
+0 21 0 138030 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/round/round.min.js
+0 6 0 309 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/quick-edit.min.js
+0 6 0 4508 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/stupidtable/stupidtable.min.js
+0 6 0 1484 0 0
+/wp-admin/css/install.min.css
+0 3 0 14862 0 0
+/shop/adaci-shop/
+0 1 0 58112 0 0
+/formanagemnt/wp-includes/css/admin-bar.min.css
+0 1 0 20105 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.pie.min.js
+0 10 0 62808 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-price.js
+0 3 0 13542 0 0
+/formanagemntshop/wp-includes/js/thickbox/thickbox.css
+0 1 0 2659 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.resize.min.js
+0 1 0 1164 0 0
+/formanagemntshop/wp-includes/js/wp-auth-check.min.js
+0 2 0 3316 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js
+0 1 0 3324 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/pennant-1-150x150.jpg
+1 2 0 2603 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute.js
+0 5 0 163760 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+0 2 0 158 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/store-alerts.js
+0 1 0 5650 0 0
+/shop/wp-includes/js/dist/block-serialization-default-parser.min.js
+0 5 0 15075 0 0
+/wp-json/wp/v2/pages/60
+0 2 0 3416 0 0
+/wp-includes/js/clipboard.min.js
+0 9 0 95463 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/admin/wc-status-widget.min.js
+0 1 0 605 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/csv-export/
+0 1 0 5348 0 0
+/formanagemntshop/wp-admin/load-styles.php
+0 6 0 2954164 1 0
+/wp-includes/js/dist/date.min.js
+0 11 0 2224904 0 0
+/wp-admin/js/dashboard.min.js
+0 9 0 79173 0 0
+/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css
+0 1 0 3287 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/31.style.css
+0 1 0 39024 0 0
+/shop/wp-includes/js/dist/blocks.min.js
+0 5 0 792765 0 0
+/formanagemntshop/wp-json/wc-admin/options
+0 18 0 874 0 1
+/shop/wp-includes/js/zxcvbn-async.min.js
+0 6 0 2106 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/t-shirt-with-logo-1-150x150.jpg
+1 2 0 3170 0 0
+/wp-admin/themes.php
+0 4 0 210513 0 0
+/shop/wp-includes/js/dist/data.min.js
+0 5 0 122265 0 0
+/shop/wp-includes/css/dist/block-library/style.min.css
+0 6 0 500514 0 0
+/wp-admin/js/common.min.js
+0 17 0 340646 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes.min.js
+0 6 0 1598 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/jquery-ui/jquery-ui.min.css
+0 10 0 30044 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js
+0 1 0 2640 0 0
+/formanagemnt/wp-content/themes/twentytwenty/style.css
+0 1 0 121457 0 0
+/formanagement/wp-includes/js/jquery/jquery.min.js
+0 1 0 89521 0 0
+/shop/wp-json/wp/v2/taxonomies
+0 1 0 10159 0 0
+/wp-json/wp/v2/pages/2
+0 6 0 23165 1 0
+/formanagement/wp-includes/css/editor.min.css
+0 1 0 27188 0 0
+/wp-admin/update-core.php
+0 2 0 58661 0 0
+/shop/wp-includes/js/dist/format-library.min.js
+0 3 0 65784 0 0
+/formanagement/wp-admin/js/edit-comments.min.js
+0 1 0 15268 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category-list.js
+0 3 0 2667 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/homescreen.js
+0 1 0 418461 0 0
+/wp-admin/css/l10n.min.css
+0 9 0 22293 0 0
+/shop/wp-includes/js/dist/is-shallow-equal.min.js
+0 5 0 8480 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+0 1 0 2139 0 0
+/wp-admin/js/user-suggest.min.js
+0 6 0 4056 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/
+0 12 0 10178 0 0
+/wp-includes/js/dist/block-directory.min.js
+0 5 0 110535 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-serializejson/jquery.serializejson.min.js
+0 8 0 5437 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/
+0 22 0 3078725 0 0
+/formanagement/wp-json/wc-analytics/products/reviews
+0 1 0 2 1 0
+/wp-content/plugins/woocommerce/assets/css/select2.css
+0 1 0 14615 0 0
+/wp-admin/options-reading.php
+0 2 0 83684 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/stupidtable/stupidtable.min.js
+0 6 0 1484 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-serializejson/jquery.serializejson.min.js
+0 6 0 5437 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews.js
+0 3 0 85560 0 0
+/formanagemnt/wp-includes/js/hoverintent-js.min.js
+0 1 0 1718 0 0
+/shop/wp-includes/js/dist/i18n.min.js
+0 8 0 83256 0 0
+/shop/wp-includes/js/dist/edit-post.min.js
+0 3 0 363705 0 0
+/shop/wp-includes/js/tinymce/plugins/compat3x/plugin.min.js
+0 3 0 12387 0 0
+/shop/wp-includes/js/media-views.min.js
+0 5 0 557050 0 0
+/wp-admin/network/
+0 9 0 401629 0 0
+/wp-admin/images/about-texture.png
+1 2 0 293510 0 0
+/shop/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js
+0 4 0 38892 0 0
+/shop/wp-includes/js/jquery/jquery.min.js
+0 10 0 895210 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/wc-product-import.min.js
+0 1 0 1484 0 0
+/wp-json/wc-admin/options
+0 21 0 798 0 0
+/shop/wp-includes/css/admin-bar.min.css
+0 4 0 80420 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product.min.js
+0 8 0 12654 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/marketplace-suggestions.min.js
+0 6 0 6311 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products.js
+0 3 0 82413 0 0
+/formanagemntshop/wp-admin/js/image-edit.min.js
+0 2 0 22526 0 0
+/wp-includes/js/thickbox/thickbox.js
+0 10 0 131940 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-editor-style.css
+0 1 0 31227 0 0
+/wp-admin/network/sites.php
+0 48 0 1811848 4 2
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.js
+0 5 0 10065 0 0
+/formanagemntshop/wp-content/themes/twentytwenty/assets/js/
+0 6 0 154428 0 0
+/wp-content/uploads/2022/05/sunglasses-2-150x150.jpg
+1 2 0 2261 0 0
+/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js
+0 1 0 2666 0 0
+/formanagement/wp-includes/js/dist/a11y.min.js
+0 1 0 3069 0 0
+/formanagemntshop/wp-admin/js/svg-painter.js
+0 2 0 11044 0 0
+/wp-includes/css/buttons.min.css
+0 9 0 52686 0 0
+/formanagement/wp-includes/js/dist/plugins.min.js
+0 1 0 5430 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/2.js
+0 2 0 19564 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+0 13 0 27333 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js
+0 1 0 6360 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/number/
+0 1 0 2239 0 0
+/formanagemntshop/wp-includes/js/dist/vendor/moment.min.js
+0 2 0 116650 0 0
+/formanagement/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js
+0 1 0 9723 0 0
+/wp-content/uploads/2022/05/vneck-tee-2.jpg
+1 1 0 49497 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/2.js
+0 2 0 19564 0 0
+/shop/wp-content/plugins/multiple-domain/settings.js
+0 1 0 519 0 0
+/formanagemntshop/wp-includes/js/dist/api-fetch.min.js
+0 2 0 12152 0 0
+/shop/wp-admin/post.php
+0 1 0 450520 0 0
+/wp-admin/network/upgrade.php
+0 1 0 22439 0 0
+/shop/wp-includes/js/jquery/ui/mouse.min.js
+0 6 0 20436 0 0
+/wp-content/uploads/2022/05/pennant-1-150x150.jpg
+1 2 0 2603 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/woocommerce_admin.min.js
+0 23 0 52752 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/onboarding/style.css
+0 12 0 5422 0 0
+/wp-admin/network/users.php
+0 1 0 35711 0 0
+/formanagemntshop/wp-includes/js/heartbeat.min.js
+0 2 0 11754 0 0
+/wp-content/uploads/2022/05/hoodie-2-150x150.jpg
+1 3 0 3136 0 0
+/shop/wp-content/themes/twentytwenty/print.css
+0 6 0 16212 0 0
+/formanagemntshop/wp-includes/js/dist/components.min.js
+0 2 0 1576450 0 0
+/wp-admin/js/editor.min.js
+0 5 0 66055 0 0
+/wp-includes/js/jquery/ui/slider.min.js
+0 5 0 53750 0 0
+/formanagement/wp-includes/js/jquery/ui/mouse.min.js
+0 1 0 3406 0 0
+/formanagement/wp-includes/js/wp-auth-check.min.js
+0 1 0 1658 0 0
+/wp-content/uploads/2022/05/belt-2-150x150.jpg
+1 2 0 2692 0 0
+/shop/wp-includes/js/underscore.min.js
+0 8 0 152552 0 0
+/shop/wp-admin/plugins.php
+0 1 0 51772 0 0
+/shop/wp-json/wc-admin/options
+0 12 0 461 0 0
+/formanagemnt/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css
+0 1 0 4933 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters.js
+0 5 0 102325 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+0 1 0 14176 0 0
+/shop/wp-admin/js/site-health.min.js
+0 7 0 42994 0 0
+/wp-includes/js/dist/media-utils.min.js
+0 5 0 40865 0 0
+/formanagemntshop/wp-includes/js/quicktags.min.js
+0 1 0 11132 0 0
+/2022/05/02/hello-world/
+0 1 0 58234 0 1
+/wp-includes/js/dist/notices.min.js
+0 9 0 28062 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/style.css
+0 1 0 3532 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/49.style.css
+0 21 0 27070 0 0
+/wp-includes/js/thickbox/thickbox.css
+0 8 0 21272 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/wc-product-import.min.js
+0 1 0 1484 0 0
+/shop/wp-admin/options-general.php
+0 4 0 810252 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product.js
+0 3 0 138888 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.time.min.js
+0 1 0 4589 0 0
+/wp-includes/js/shortcode.min.js
+0 9 0 23850 0 0
+/wp-includes/js/wp-lists.min.js
+0 9 0 66978 0 0
+/wp-content/plugins/multiple-domain/settings.js
+0 5 0 1038 0 0
+/formanagement/wp-json/wc-admin/onboarding/profile
+0 1 0 330 0 0
+/formanagemntshop/wp-includes/js/dist/compose.min.js
+0 2 0 73624 0 0
+/formanagemntshop/wp-includes/css/editor.min.css
+0 1 0 27188 0 0
+/shop/wp-includes/js/dist/dom-ready.min.js
+0 7 0 8799 0 0
+/wp-includes/js/dist/viewport.min.js
+0 9 0 28161 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/
+0 12 0 1231490 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/single-1-150x150.jpg
+1 2 0 3776 0 0
+/wp-json/wp/v2/taxonomies/post_tag
+0 1 0 1872 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/logo-1-150x150.jpg
+1 2 0 5903 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/datepicker.min.js
+0 1 0 36751 0 0
+/wp-admin/network/settings.php
+0 4 0 169446 0 0
+/formanagement/wp-includes/js/dist/escape-html.min.js
+0 1 0 1783 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-2-450x450.jpg
+1 1 0 14081 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/style.css
+0 22 0 76240 0 0
+/wp-includes/js/jquery/jquery.query.js
+0 8 0 29552 0 0
+/wp-includes/js/dist/api-fetch.min.js
+0 9 0 54684 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/hoodie-with-pocket-2-150x150.jpg
+1 2 0 3038 0 0
+/formanagement/wp-includes/js/mce-view.min.js
+0 1 0 9883 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.resize.min.js
+0 1 0 1164 0 0
+/shop/wp-json/wc-admin/onboarding/tasks
+0 11 0 75210 0 0
+/shop/wp-admin/js/image-edit.min.js
+0 5 0 56315 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/onboarding/style.css
+0 22 0 13555 0 0
+/wp-admin/load-scripts.php
+0 50 0 5091043 0 2
+/shop/wp-admin/js/plugin-install.min.js
+0 7 0 16821 0 0
+/wp-admin/about.php
+0 1 0 33082 0 0
+/wp-admin/images/spinner.gif
+1 3 0 10968 0 0
+/wp-includes/js/jquery/ui/sortable.min.js
+0 8 0 203712 0 0
+/wp-json/wc-analytics/data/countries
+0 2 0 269106 0 0
+/formanagement/wp-admin/js/dashboard.min.js
+0 1 0 8797 0 0
+/wp-json/wp/v2/users
+0 6 0 174 2 0
+/formanagement/wp-admin/load-styles.php
+0 3 0 1330804 1 0
+/formanagement/wp-includes/js/dist/vendor/moment.min.js
+0 1 0 58325 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category.js
+0 5 0 141160 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/tracks/
+0 12 0 20324 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-summary.js
+0 3 0 6168 0 0
+/shop/wp-json/wp/v2/blocks
+0 1 0 2 0 0
+/formanagemntshop/wp-json/wc-analytics/products/reviews
+0 2 0 4 1 0
+/wp-content/uploads/2022/05/long-sleeve-tee-2-150x150.jpg
+1 2 0 3311 0 0
+/wp-includes/js/dist/i18n.min.js
+0 18 0 187326 0 0
+/formanagemntshop/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css
+0 2 0 22512 0 0
+/shop/wp-content/uploads/sites/2/2022/05/cap-2-150x150.jpg
+1 2 0 2587 0 0
+/formanagemntshop/wp-includes/js/mce-view.min.js
+0 2 0 19766 0 0
+/wp-content/themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png
+1 2 0 207278 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-2-150x150.jpg
+1 3 0 3136 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+0 26 0 25668 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/slider.min.js
+0 1 0 10750 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/explat/
+0 1 0 24858 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/onboarding/style.css
+0 1 0 2711 0 0
+/shop/wp-admin/js/iris.min.js
+0 1 0 23643 0 0
+/formanagement/wp-admin/js/common.min.js
+0 1 0 20038 0 0
+/formanagement/wp-content/themes/twentytwenty/assets/js/
+0 1 0 25738 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/beanie-2-150x150.jpg
+1 2 0 2457 0 0
+/wp-content/plugins/woocommerce/assets/css/menu.css
+0 125 0 77168 0 0
+/shop/wp-admin/js/postbox.min.js
+0 7 0 46991 0 0
+/shop/wp-admin/css/forms.min.css
+0 4 0 101476 0 0
+/wp-admin/plugins.php
+0 4 0 202263 0 0
+/wp-admin/js/plugin-install.min.js
+0 9 0 21627 0 0
+/shop/wp-includes/js/dist/autop.min.js
+0 5 0 31535 0 0
+/wp-content/themes/twentytwenty/assets/js/
+0 12 0 308856 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/users.min.js
+0 3 0 5751 0 0
+/wp-json/
+0 12 0 12259358 4 2
+/shop/
+0 35 0 1020373 9 0
+/wp-content/plugins/woocommerce/assets/css/admin.css
+0 21 0 1215996 0 0
+/formanagement/wp-admin/js/site-health.min.js
+0 1 0 6142 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/
+0 1 0 54512 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/menu.css
+0 21 0 33072 0 0
+/formanagement/wp-admin/js/postbox.min.js
+0 1 0 6713 0 0
+/wp-content/uploads/2022/05/vnech-tee-blue-1-600x600.jpg
+1 1 0 21530 0 0
+/formanagemntshop/wp-admin/js/updates.min.js
+0 1 0 41173 0 0
+/formanagement/wp-includes/js/plupload/wp-plupload.min.js
+0 1 0 5979 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-sale-badge.js
+0 3 0 4260 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/hoodie-2-150x150.jpg
+1 2 0 3136 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+0 26 0 36444 0 0
+/formanagement/wp-includes/js/dist/components.min.js
+0 1 0 788225 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews.js
+0 5 0 142600 0 0
+/wp-json/wc-admin/onboarding/profile
+0 2 0 660 0 0
+/formanagemntshop/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+0 2 0 315220 0 0
+/formanagement/wp-admin/js/svg-painter.js
+0 1 0 5522 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/marketplace-suggestions.min.js
+0 6 0 6311 0 0
+/shop/wp-content/uploads/sites/2/2022/05/tshirt-2-150x150.jpg
+1 2 0 2801 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/style.css
+0 12 0 7064 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/admin.css
+0 10 0 303999 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category.js
+0 5 0 167295 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+0 3 0 14176 0 0
+/wp-admin/post.php
+0 4 0 1792286 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js
+0 1 0 7883 0 0
+/formanagement/wp-includes/js/media-audiovideo.min.js
+0 1 0 12964 0 0
+/wp-includes/js/underscore.min.js
+0 11 0 209759 0 0
+/wp-admin/css/forms.min.css
+0 9 0 228321 0 0
+/shop/wp-includes/js/dist/priority-queue.min.js
+0 5 0 8180 0 0
+/shop/wp-content/uploads/sites/2/2022/05/vneck-tee-2-150x150.jpg
+1 2 0 3137 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style.css
+0 12 0 178568 0 0
+/wp-content/plugins/woocommerce/assets/css/dashboard.css
+0 14 0 35567 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/admin/reports.min.js
+0 1 0 3248 0 0
+/formanagement/wp-admin/js/plugin-install.min.js
+0 1 0 2403 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js
+0 1 0 3324 0 0
+/formanagemntshop/wp-json/wc-admin/onboarding/product-types
+0 2 0 3240 0 0
+/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js
+0 8 0 3300 0 0
+/wp-includes/js/dist/wordcount.min.js
+0 5 0 16275 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/34.style.css
+0 1 0 11785 0 0
+/formanagemntshop/wp-includes/js/mediaelement/wp-mediaelement.min.css
+0 2 0 8372 0 0
+/formanagement/wp-admin/plugins.php
+0 1 0 52261 0 0
+/shop/wp-includes/js/media-editor.min.js
+0 5 0 54545 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 7 0 165252 0 0
+/wp-content/themes/twentytwentytwo/style.css
+0 2 0 11204 0 0
+/formanagement/wp-includes/js/dist/blocks.min.js
+0 1 0 158553 0 0
+/wp-includes/js/dist/blocks.min.js
+0 10 0 1585530 0 0
+/formanagemntshop/wp-admin/js/site-health.min.js
+0 1 0 6142 0 0
+/formanagemntshop/wp-includes/js/hoverintent-js.min.js
+0 6 0 10308 0 0
+/shop/wp-includes/js/wp-auth-check.min.js
+0 7 0 11606 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/store-alerts.js
+0 11 0 11300 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js
+0 15 0 45282 0 0
+/wp-content/themes/twentytwenty/style.css
+0 11 0 1336027 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-tiptip/jquery.tipTip.min.js
+0 10 0 2853 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+0 9 0 12834 0 0
+/wp-includes/css/editor.min.css
+0 4 0 108752 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js
+0 6 0 3300 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js
+0 5 0 48085 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/draggable.min.js
+0 1 0 18331 0 0
+/formanagemntshop/wp-includes/js/dist/core-data.min.js
+0 2 0 97388 0 0
+/shop/wp-includes/js/dist/plugins.min.js
+0 5 0 27150 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories.js
+0 5 0 49375 0 0
+/formanagement/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+0 1 0 157610 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/hoodie-with-logo-2-150x150.jpg
+1 2 0 3111 0 0
+/wp-content/plugins/woocommerce/assets/css/woocommerce.css
+0 3 0 188265 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.pie.min.js
+0 1 0 7851 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style.css
+0 12 0 58016 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/sortable.min.js
+0 2 0 50928 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/notices/
+0 12 0 6100 0 0
+/shop/wp-includes/js/dist/api-fetch.min.js
+0 5 0 30380 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/woocommerce.css
+0 1 0 62755 0 0
+/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js
+0 1 0 31357 0 0
+/formanagemnt/wp-content/themes/twentytwenty/assets/js/
+0 1 0 25738 0 0
+/formanagemntshop/wp-includes/js/dist/vendor/react-dom.min.js
+0 2 0 241170 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-with-zipper-2-150x150.jpg
+1 2 0 3612 0 0
+/formanagemntshop/wp-includes/js/dist/escape-html.min.js
+0 2 0 3566 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-sku.js
+0 5 0 2955 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-stock-indicator.js
+0 3 0 3795 0 0
+/formanagement/wp-includes/js/dist/api-fetch.min.js
+0 1 0 6076 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/currency/
+0 12 0 9936 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style.css
+0 12 0 178568 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/date/
+0 12 0 41864 0 0
+/formanagemntshop/wp-includes/js/dist/shortcode.min.js
+0 2 0 8110 0 0
+/wp-admin/network/setup.php
+0 4 0 102563 1 0
+/formanagemntshop/wp-includes/js/dist/blocks.min.js
+0 2 0 317106 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product.js
+0 3 0 95658 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-button.js
+0 5 0 31750 0 0
+/shop/wp-json/wp/v2/templates
+0 2 0 4814 0 0
+/formanagemnt/
+0 2 0 62473 1 0
+/wp-content/uploads/2022/05/vneck-tee-2-600x599.jpg
+1 1 0 20701 0 0
+/shop/wp-json/wc-analytics/products/low-in-stock
+0 1 0 2 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/
+0 22 0 832340 0 3
+/formanagement/wp-includes/js/jquery/jquery.query.js
+0 1 0 3694 0 0
+/wp-content/uploads/2022/05/logo-1-150x150.jpg
+1 2 0 5903 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/dashboard.css
+0 1 0 5081 0 0
+/wp-admin/
+0 28 0 2260609 5 1
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-rating.js
+0 5 0 7505 0 0
+/formanagemnt/wp-includes/css/dist/block-library/style.min.css
+0 1 0 83419 0 0
+/wp-includes/js/wp-auth-check.min.js
+0 17 0 28186 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js
+0 1 0 7883 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+0 9 0 18222 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/onboarding/style.css
+0 12 0 5422 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/dashboard.css
+0 8 0 30486 0 0
+/shop/wp-json/
+0 2 0 2048108 2 0
+/shop/wp-content/uploads/sites/2/2022/05/logo-1-150x150.jpg
+1 2 0 5903 0 0
+/wp-content/plugins/woocommerce/assets/css/dashboard-setup.css
+0 14 0 4620 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/admin.css
+0 10 0 303999 0 0
+/formanagemntshop/wp-includes/js/dist/priority-queue.min.js
+0 2 0 3272 0 0
+/wp-includes/js/dist/priority-queue.min.js
+0 9 0 14724 0 0
+/wp-json/wp/v2/themes
+0 6 0 27426 0 5
+/formanagemntshop/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+0 4 0 895568 0 0
+/formanagemntshop/wp-admin/js/inline-edit-post.min.js
+0 1 0 7411 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css
+0 22 0 49330 0 0
+/formanagement/wp-includes/js/wp-util.min.js
+0 1 0 1340 0 0
+/formanagement/wp-includes/js/shortcode.min.js
+0 1 0 2650 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/csv-export/
+0 12 0 10696 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/activation.css
+0 19 0 9558 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+0 1 0 7043 0 0
+/formanagemntshop/wp-includes/css/dist/block-library/style.min.css
+0 4 0 333676 0 0
+/wp-admin/load-styles.php
+0 33 0 15221677 3 0
+/formanagemntshop/wp-admin/js/dashboard.min.js
+0 1 0 8797 0 0
+/formanagement/wp-includes/js/jquery/jquery.color.min.js
+0 1 0 9315 0 0
+/wp-admin/network/plugin-install.php
+0 4 0 280442 0 0
+/shop/wp-includes/js/mce-view.min.js
+0 5 0 49415 0 0
+/shop/wp-includes/js/dist/viewport.min.js
+0 5 0 15645 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/style.css
+0 12 0 30496 0 0
+/shop/wp-includes/js/jquery/ui/datepicker.min.js
+0 6 0 220506 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/
+0 12 0 109024 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/mouse.min.js
+0 2 0 6812 0 0
+/formanagemntshop/wp-json/wc-admin/onboarding/tasks
+0 12 0 81066 0 0
+/shop/wp-includes/js/dist/rich-text.min.js
+0 5 0 183690 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+0 19 0 18340 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js
+0 9 0 17628 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/data/
+0 1 0 118238 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js
+0 11 0 154276 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute.js
+0 3 0 98256 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js
+0 26 0 67923 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/beanie-with-logo-1-150x150.jpg
+1 2 0 2447 0 0
+/wp-includes/js/dist/vendor/moment.min.js
+0 11 0 641575 0 0
+/cart/
+0 2 0 198740 0 0
+/wp-includes/js/heartbeat.min.js
+0 17 0 99909 0 0
+/wp-content/plugins/woocommerce/assets/js/stupidtable/stupidtable.min.js
+0 8 0 1484 0 0
+/shop/wp-includes/js/wp-util.min.js
+0 8 0 10720 0 0
+/formanagemntshop/wp-json/wc-admin/onboarding/profile
+0 2 0 660 0 0
+/wp-admin/users.php
+0 1 0 47272 1 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters.js
+0 3 0 61395 0 0
+/shop/wp-admin/admin-ajax.php
+0 84 0 8584 56 61
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+0 1 0 9533 0 0
+/shop/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+0 6 0 38964 0 0
+/formanagemntshop/wp-includes/js/wplink.min.js
+0 1 0 11270 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/legacy-template.js
+0 5 0 29985 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-sale-badge.js
+0 5 0 7100 0 0
+/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+0 7 0 1103270 0 0
+/wp-includes/js/dist/a11y.min.js
+0 13 0 39897 0 0
+/shop/wp-includes/js/jquery/jquery-migrate.min.js
+0 9 0 101016 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-add-to-cart.js
+0 3 0 74553 0 0
+/wp-includes/js/zxcvbn.min.js
+0 9 0 7400133 0 0
+/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+0 22 0 178090 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+0 13 0 19251 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+0 1 0 9533 0 0
+/shop/wp-includes/js/dist/compose.min.js
+0 5 0 184060 0 0
+/formanagement/wp-includes/js/jquery/ui/sortable.min.js
+0 1 0 25464 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/sunglasses-2-150x150.jpg
+1 3 0 2261 0 0
+/home/
+0 1 0 57191 0 0
+/formanagement/wp-includes/js/jquery/ui/core.min.js
+0 1 0 20714 0 0
+/formanagemntshop/wp-includes/js/dist/is-shallow-equal.min.js
+0 2 0 3392 0 0
+/favicon.ico
+0 1 0 95748 0 0
+/formanagement/wp-json/wc-analytics/orders
+0 1 0 2 1 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-rating.js
+0 3 0 4503 0 0
+/formanagemntshop/wp-includes/js/jquery/jquery.query.js
+0 1 0 3694 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale.js
+0 3 0 92571 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/1.js
+0 11 0 35644 0 0
+/wp-content/themes/twentytwenty/assets/js/editor-script-block.js
+0 5 0 890 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css
+0 11 0 34531 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-add-to-cart.js
+0 5 0 124255 0 0
+/shop/wp-admin/js/password-strength-meter.min.js
+0 6 0 6738 0 0
+/formanagemntshop/wp-admin/load-scripts.php
+0 8 0 1172612 0 1
+/wp-includes/js/imgareaselect/imgareaselect.css
+0 5 0 3950 0 0
+/wp-admin/network/site-info.php
+0 28 0 770598 1 0
+/formanagement/wp-includes/js/dist/notices.min.js
+0 1 0 3118 0 0
+/formanagement/wp-admin/js/image-edit.min.js
+0 1 0 11263 0 0
+/formanagemntshop/
+0 5 0 110025 0 0
+/formanagemntshop/wp-admin/js/common.min.js
+0 2 0 40076 0 0
+/formanagement/wp-includes/js/dist/vendor/react.min.js
+0 1 0 11440 0 0
+/wp-includes/js/dist/data-controls.min.js
+0 9 0 20520 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+0 1 0 3037 0 0
+/formanagement/wp-includes/js/dist/block-serialization-default-parser.min.js
+0 1 0 3015 0 0
+/wp-includes/css/admin-bar.min.css
+0 6 0 120630 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag-list.js
+0 3 0 2592 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.resize.min.js
+0 10 0 9312 0 0
+/formanagemntshop/wp-includes/js/media-models.min.js
+0 2 0 28586 0 0
+/wp-includes/js/media-audiovideo.min.js
+0 7 0 90748 0 0
+/formanagement/wp-includes/js/api-request.min.js
+0 1 0 1025 0 0
+/wp-includes/js/wp-ajax-response.min.js
+0 9 0 20808 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/wc-enhanced-select.min.js
+0 10 0 6061 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/
+0 12 0 1231490 0 1
+/wp-json/wc-analytics/admin/notes
+0 23 0 46 2 2
+/formanagement/wp-includes/js/dist/url.min.js
+0 1 0 5698 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/csv-export/
+0 21 0 26740 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product.js
+0 5 0 231480 0 0
+/wp-admin/admin.php
+0 2 0 1642016 1 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category.js
+0 5 0 212100 0 0
+/shop/wp-includes/js/dist/deprecated.min.js
+0 5 0 8235 0 0
+/formanagemntshop/wp-includes/js/media-views.min.js
+0 2 0 222820 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/
+0 1 0 5089 0 0
+/formanagemntshop/shop/
+0 5 0 279904 1 0
+/shop/wp-includes/js/jquery/jquery.query.js
+0 6 0 22164 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-title.js
+0 3 0 6891 0 0
+/shop/wp-includes/js/mediaelement/wp-mediaelement.min.js
+0 5 0 4530 0 0
+/shop/wp-admin/images/wordpress-logo.svg
+0 4 0 6084 0 0
+/formanagement/wp-json/wc-admin/options
+0 4 0 247 0 1
+/wp-includes/blocks/navigation/style.min.css
+0 2 0 27148 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+0 15 0 12838 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 11 0 289191 0 0
+/formanagemntshop/wp-json/wc-analytics/admin/notes
+0 14 0 10344 0 0
+/wp-admin/install.php
+0 4 0 39716 1 0
+/wp-admin/js/theme.min.js
+0 3 0 81006 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-editor-style.css
+0 3 0 93681 0 0
+/formanagemntshop/wp-includes/css/admin-bar.min.css
+0 3 0 60315 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js
+0 13 0 26442 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.js
+0 2 0 21574 0 0
+/wp-includes/js/dist/edit-post.min.js
+0 5 0 606175 0 0
+/formanagemntshop/wp-includes/js/clipboard.min.js
+0 2 0 21214 0 0
+/formanagement/wp-includes/js/dist/html-entities.min.js
+0 1 0 1416 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/marketplace-suggestions.min.js
+0 8 0 6311 0 0
+/shop/wp-content/themes/twentytwenty/assets/js/
+0 8 0 205904 0 0
+/shop/wp-admin/load-scripts.php
+0 23 0 2673462 0 2
+/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js
+0 24 0 539966 0 0
+/formanagement/wp-includes/css/dashicons.min.css
+0 1 0 59016 0 0
+/formanagement/wp-includes/js/wp-ajax-response.min.js
+0 1 0 2312 0 0
+/formanagemntshop/wp-admin/images/spinner.gif
+1 1 0 3656 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js
+0 26 0 35256 0 0
+/shop/wp-includes/js/dist/a11y.min.js
+0 7 0 21483 0 0
+/shop/wp-json/wp/v2/users
+0 1 0 29 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/notices/
+0 12 0 6100 0 0
+/shop/wp-includes/js/dist/core-data.min.js
+0 5 0 243470 0 0
+/wp-content/uploads/2022/05/album-1-150x150.jpg
+1 2 0 3700 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-image.js
+0 5 0 11695 0 0
+/shop/wp-includes/js/dist/media-utils.min.js
+0 3 0 24519 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+0 22 0 85797 0 0
+/wp-includes/js/dist/format-library.min.js
+0 5 0 109640 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/1.js
+0 12 0 35644 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style.css
+0 12 0 58016 0 0
+/formanagemntshop/wp-includes/js/jquery/jquery.min.js
+0 5 0 447605 0 0
+/wp-content/plugins/woocommerce/assets/images/dashboard-widget-setup.png
+1 14 0 38010 0 0
+/formanagement/wp-includes/js/mediaelement/wp-mediaelement.min.js
+0 1 0 906 0 0
+/formanagement/wp-admin/
+0 1 0 91027 1 0
+/wp-includes/js/dist/vendor/lodash.min.js
+0 11 0 803165 0 0
+/formanagement/wp-includes/js/thickbox/thickbox.css
+0 1 0 2659 0 0
+/formanagement/wp-includes/js/jquery/ui/datepicker.min.js
+0 1 0 36751 0 0
+/shop/wp-includes/js/dist/primitives.min.js
+0 5 0 14505 0 0
+/wp-admin/network/site-users.php
+0 3 0 119261 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/marketplace-suggestions.css
+0 6 0 21108 0 0
+/shop/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+0 5 0 788050 0 0
+/formanagement/wp-includes/js/dist/is-shallow-equal.min.js
+0 1 0 1696 0 0
+/formanagemntshop/wp-includes/js/dist/notices.min.js
+0 2 0 6236 0 0
+/shop/wp-content/uploads/sites/2/2022/05/single-1-150x150.jpg
+1 2 0 3776 0 0
+/wp-admin/edit.php
+0 36 0 4252231 2 1
+/wp-includes/js/jquery/ui/draggable.min.js
+0 5 0 91655 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category.js
+0 3 0 100377 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/hoodie-with-zipper-2-150x150.jpg
+1 2 0 3612 0 0
+/shop/wp-admin/load-styles.php
+0 13 0 6206369 2 2
+/wp-includes/js/jquery/ui/mouse.min.js
+0 8 0 27248 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/homescreen.js
+0 2 0 836922 0 0
+/wp-includes/js/dist/components.min.js
+0 10 0 7882250 0 0
+/formanagement/wp-includes/js/thickbox/loadingAnimation.gif
+1 1 0 15238 0 0
+/shop/wp-includes/js/heartbeat.min.js
+0 7 0 41139 0 0
+/shop/wp-includes/js/imgareaselect/imgareaselect.css
+0 3 0 2370 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css
+0 11 0 1486401 0 0
+/shop/wp-includes/js/dist/element.min.js
+0 5 0 48255 0 0
+/formanagement/wp-json/wc-analytics/reports/performance-indicators
+0 2 0 1114 0 0
+/shop/wp-includes/js/thickbox/thickbox.css
+0 5 0 13295 0 0
+/formanagement/wp-includes/js/dist/shortcode.min.js
+0 1 0 4055 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js
+0 1 0 2938 0 0
+/formanagement/wp-includes/js/wplink.min.js
+0 1 0 11270 0 0
+/formanagement/wp-admin/js/media-upload.min.js
+0 1 0 1152 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/
+0 12 0 10178 0 0
+/wp-includes/js/wp-sanitize.min.js
+0 10 0 4580 0 0
+/wp-includes/js/media-editor.min.js
+0 7 0 76363 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale.js
+0 5 0 154285 0 0
+/formanagemntshop/wp-includes/js/wp-ajax-response.min.js
+0 1 0 2312 0 0
+/shop/wp-json/wp/v2/pages/2
+0 2 0 7815 0 0
+/formanagemntshop/wp-includes/js/api-request.min.js
+0 2 0 2050 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+0 7 0 28172 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter.js
+0 3 0 77400 0 0
+/formanagemntshop/wp-includes/js/dist/keycodes.min.js
+0 2 0 8286 0 0
+/shop/wp-admin/admin.php
+0 2 0 1642463 0 0
+/shop/wp-includes/css/dashicons.min.css
+0 6 0 354096 0 0
+/wp-includes/css/dashicons.min.css
+0 10 0 590160 0 0
+/shop/wp-includes/js/shortcode.min.js
+0 7 0 18550 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product.min.js
+0 6 0 12654 0 0
+/wp-includes/js/customize-base.min.js
+0 3 0 23568 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js
+0 6 0 3300 0 0
+/formanagemnt/wp-content/themes/twentytwenty/print.css
+0 1 0 2702 0 0
+/wp-admin/network/plugins.php
+0 8 0 318990 1 0
+/wp-admin/js/inline-edit-post.min.js
+0 6 0 44466 0 0
+/shop/wp-includes/js/dist/vendor/wp-polyfill.min.js
+0 6 0 115566 0 0
+/wp-content/uploads/2022/05/cap-2-150x150.jpg
+1 2 0 2587 0 0
+/wp-includes/js/mediaelement/wp-mediaelement.min.css
+0 5 0 20930 0 0
+/formanagement/wp-includes/js/clipboard.min.js
+0 1 0 10607 0 0
+/shop/wp-includes/js/dist/shortcode.min.js
+0 5 0 20275 0 0
+/formanagement/wp-includes/js/dist/deprecated.min.js
+0 1 0 1647 0 0
+/wp-includes/js/tinymce/tinymce.min.js
+0 5 0 1827850 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/
+0 1 0 615745 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/
+0 12 0 109024 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.js
+0 5 0 149760 0 0
+/formanagemntshop/wp-includes/js/dist/autop.min.js
+0 2 0 12614 0 0
+/formanagemntshop/wp-includes/js/dist/primitives.min.js
+0 2 0 5802 0 0
+/shop/wp-json/wc-analytics/admin/notes
+0 12 0 4437 0 2
+/shop/wp-includes/css/buttons.min.css
+0 4 0 23416 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/autocomplete.min.js
+0 1 0 8527 0 0
+/wp-admin/network.php
+0 2 0 52369 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag-list.js
+0 5 0 4320 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js
+0 10 0 77138 0 0
+/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js
+0 1 0 13590 0 0
+/formanagement/wp-includes/js/dist/rich-text.min.js
+0 1 0 36738 0 0
+/formanagemntshop/wp-includes/js/dist/data-controls.min.js
+0 2 0 4560 0 0
+/formanagemntshop/wp-includes/js/dist/plugins.min.js
+0 2 0 10860 0 0
+/shop/wp-admin/js/svg-painter.js
+0 7 0 38654 0 0
+/wp-admin/network/site-settings.php
+0 3 0 335270 0 0
+/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+0 7 0 8351 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+0 11 0 49301 0 0
+/wp-includes/js/comment-reply.min.js
+0 1 0 2979 0 0
+/shop/wp-content/uploads/sites/2/2022/05/t-shirt-with-logo-1-150x150.jpg
+1 2 0 3170 0 0
+/formanagement/wp-includes/js/dist/primitives.min.js
+0 1 0 2901 0 0
+/wp-content/uploads/2022/05/hoodie-with-pocket-2-150x150.jpg
+1 2 0 3038 0 0
+/wp-signup.php
+0 1 0 51332 0 0
+/formanagemntshop/wp-includes/js/media-audiovideo.min.js
+0 2 0 25928 0 0
+/wp-includes/js/jquery/jquery-migrate.min.js
+0 14 0 157136 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.time.min.js
+0 10 0 36712 0 0
+/wp-includes/js/zxcvbn-async.min.js
+0 9 0 3159 0 0
+/wp-includes/js/tinymce/plugins/compat3x/plugin.min.js
+0 5 0 20645 0 0
+/shop/wp-includes/js/hoverintent-js.min.js
+0 7 0 12026 0 0
+/formanagemntshop/wp-includes/js/dist/a11y.min.js
+0 2 0 6138 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-with-logo-2-450x450.jpg
+1 1 0 14732 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js
+0 3 0 100641 0 0
+/formanagemntshop/wp-includes/js/dist/block-serialization-default-parser.min.js
+0 2 0 6030 0 0
+/shop/wp-includes/js/dist/vendor/react-dom.min.js
+0 5 0 602925 0 0
+/wp-includes/js/dist/vendor/react.min.js
+0 9 0 102960 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/explat/
+0 12 0 49716 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/number/
+0 12 0 4478 0 0
+/wp-includes/js/dist/token-list.min.js
+0 5 0 11680 0 0
+/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js
+0 1 0 9677 0 0
+/shop/wp-json/wp/v2/themes
+0 1 0 4595 0 1
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/navigation/
+0 1 0 25692 0 0
+/wp-admin/post-new.php
+0 2 0 891915 0 0
+/wp-content/uploads/2022/05/tshirt-2-150x150.jpg
+1 2 0 2801 0 0
+/wp-includes/images/w-logo-blue-white-bg.png
+1 12 0 49428 0 0
+/wp-content/plugins/woocommerce/assets/css/jquery-ui/jquery-ui.min.css
+0 21 0 120176 0 0
+/formanagemntshop/wp-includes/js/backbone.min.js
+0 2 0 47588 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/activation.css
+0 12 0 1593 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/navigation/
+0 22 0 128460 1 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/woocommerce_admin.min.js
+0 10 0 8792 0 0
+/shop/wp-includes/js/wp-backbone.min.js
+0 5 0 15185 0 0
+/formanagement/wp-includes/css/dist/block-library/style.min.css
+0 1 0 83419 0 0
+/formanagement/wp-includes/css/admin-bar.min.css
+0 1 0 20105 0 0
+/formanagemntshop/wp-includes/js/dist/dom-ready.min.js
+0 2 0 2514 0 0
+/shop/wp-includes/js/jquery/ui/sortable.min.js
+0 6 0 152784 0 0
+/shop/wp-includes/js/dist/warning.min.js
+0 5 0 14660 0 0
+/formanagemnt/wp-includes/js/admin-bar.min.js
+0 1 0 3556 0 0
+/formanagement/wp-includes/js/jquery/jquery-migrate.min.js
+0 1 0 11224 0 0
+/formanagement/wp-includes/js/underscore.min.js
+0 1 0 19069 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product-variation.min.js
+0 8 0 19168 0 0
+/formanagemntshop/wp-includes/js/jquery/jquery.ui.touch-punch.js
+0 1 0 1179 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style.css
+0 1 0 89284 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css
+0 7 0 19732 0 0
+/wp-json/wp/v2/templates
+0 12 0 28572 1 1
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/explat/
+0 12 0 49716 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/notices/
+0 1 0 3050 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/49.style.css
+0 11 0 10828 0 0
+/wp-includes/js/jquery/ui/core.min.js
+0 9 0 186426 0 0
+/wp-includes/js/dist/editor.min.js
+0 5 0 708455 0 0
+/wp-includes/js/dist/block-serialization-default-parser.min.js
+0 10 0 30150 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css
+0 7 0 849372 0 0
+/wp-includes/js/dist/redux-routine.min.js
+0 9 0 88164 0 0
+/shop/cart/
+0 2 0 199462 0 0
+/formanagemnt/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css
+0 1 0 212343 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-title.js
+0 5 0 11485 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/menu.css
+0 15 0 11024 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style.css
+0 22 0 446420 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css
+0 1 0 4933 0 0
+/shop/wp-includes/js/wp-sanitize.min.js
+0 7 0 3206 0 0
+/formanagement/wp-json/wc-admin/onboarding/product-types
+0 1 0 1620 0 0
+/wp-includes/js/wp-util.min.js
+0 11 0 14740 0 0
+/formanagement/
+0 2 0 61770 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/2.js
+0 1 0 9782 0 0
+/formanagemntshop/wp-includes/js/dist/warning.min.js
+0 2 0 5864 0 0
+/wp-includes/js/dist/vendor/react-dom.min.js
+0 9 0 1085265 0 0
+/wp-includes/js/dist/html-entities.min.js
+0 10 0 14160 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/quick-edit.min.js
+0 8 0 4508 0 0
+/shop/wp-admin/js/inline-edit-post.min.js
+0 4 0 29644 0 0
+/formanagemntshop/wp-admin/admin.php
+0 2 0 1648331 0 0
+/shop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+0 9 0 85056 0 0
+/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+0 11 0 2462812 0 0
+/formanagement/wp-includes/js/dist/date.min.js
+0 1 0 202264 0 0
+/shop/wp-admin/css/login.min.css
+0 4 0 25260 0 0
+/wp-admin/js/updates.min.js
+0 10 0 411730 0 0
+/wp-includes/js/media-models.min.js
+0 6 0 85758 0 0
+/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js
+0 1 0 22772 0 0
+/wp-login.php
+0 13 0 83764 2 1
+/wp-includes/js/dist/hooks.min.js
+0 9 0 51210 0 0
+/shop/wp-includes/js/admin-bar.min.js
+0 7 0 24892 0 0
+/wp-includes/js/dist/keycodes.min.js
+0 9 0 37287 0 0
+/shop/wp-json/wc-analytics/orders
+0 1 0 2 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-tiptip/jquery.tipTip.min.js
+0 22 0 14265 0 0
+/shop/wp-admin/js/common.min.js
+0 7 0 140266 0 0
+/formanagement/wp-includes/js/dist/dom-ready.min.js
+0 1 0 1257 0 0
+/wp-admin/css/login.min.css
+0 7 0 44205 0 0
+/formanagemnt/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+0 1 0 223892 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-hocs.js
+0 5 0 13290 0 0
+/formanagemnt/wp-includes/js/wp-emoji-release.min.js
+0 1 0 18181 0 0
+/formanagement/wp-includes/js/media-editor.min.js
+0 1 0 10909 0 0
+/formanagement/wp-includes/js/dist/viewport.min.js
+0 1 0 3129 0 0
+/wp-admin/js/site-health.min.js
+0 9 0 55278 0 0
+/formanagemntshop/wp-includes/js/jquery/jquery-migrate.min.js
+0 5 0 56120 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/style.css
+0 12 0 7064 0 0
+/wp-admin/js/edit-comments.min.js
+0 9 0 137412 0 0
+/formanagement/wp-includes/js/wp-sanitize.min.js
+0 1 0 458 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.js
+0 1 0 10787 0 0
+/wp-includes/js/backbone.min.js
+0 8 0 190352 0 0
+/wp-admin/network/site-new.php
+0 18 0 604646 2 1
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-tiptip/jquery.tipTip.min.js
+0 10 0 2853 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.js
+0 3 0 6039 0 0
+/shop/wp-json/wp/v2/pages
+0 1 0 12411 0 0
+/wp-content/uploads/2022/05/polo-2-150x150.jpg
+1 2 0 2878 0 0
+/formanagemnt/wp-includes/js/jquery/jquery-migrate.min.js
+0 1 0 11224 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/navigation/
+0 12 0 51384 0 0
+/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js
+0 6 0 58338 0 0
+/formanagement/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+0 1 0 223892 0 0
+/formanagement/wp-includes/js/dist/compose.min.js
+0 1 0 36812 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+0 1 0 3037 0 0
+/formanagemntshop/wp-includes/js/imgareaselect/imgareaselect.css
+0 2 0 1580 0 0
+/wp-content/plugins/woocommerce/assets/css/marketplace-suggestions.css
+0 8 0 21108 0 0
+/wp-includes/js/dist/plugins.min.js
+0 9 0 48870 0 0
+/shop/wp-includes/js/dist/token-list.min.js
+0 3 0 7008 0 0
+/formanagemntshop/wp-json/wc-analytics/reports/performance-indicators
+0 4 0 2252 0 0
+/formanagemntshop/wp-includes/js/dist/element.min.js
+0 2 0 19302 0 0
+/formanagement/wp-json/wc-analytics/admin/notes
+0 2 0 4444 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search.js
+0 5 0 31790 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks.js
+0 5 0 31235 0 0
+/sample-page/
+0 2 0 115800 0 0
+/shop/wp-admin/images/spinner.gif
+1 2 0 7312 0 0
+/wp-admin/js/tags-suggest.min.js
+0 6 0 13500 0 0
+/wp-includes/js/dist/is-shallow-equal.min.js
+0 9 0 15264 0 0
+/shop/wp-includes/js/dist/server-side-render.min.js
+0 3 0 14370 0 0
+/formanagemntshop/wp-includes/js/dist/i18n.min.js
+0 2 0 20814 0 0
+/formanagemntshop/wp-content/themes/twentytwenty/print.css
+0 4 0 10808 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/reports.min.js
+0 1 0 3248 0 0
+/formanagemntshop/wp-includes/js/dist/rich-text.min.js
+0 2 0 73476 0 0
+/wp-content/uploads/2022/05/vneck-tee-2-150x150.jpg
+1 3 0 3137 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/reports.min.js
+0 18 0 29232 0 0
+/shop/wp-content/themes/twentytwenty/assets/css/editor-style-block.css
+0 1 0 39554 0 0
+/wp-includes/js/dist/autop.min.js
+0 9 0 56763 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/31.style.css
+0 2 0 78048 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/wc-product-import.min.js
+0 1 0 1484 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.min.js
+0 16 0 279464 0 0
+/shop/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css
+0 3 0 33768 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/navigation/
+0 12 0 51384 0 0
+/wp-content/uploads/2022/05/single-1-150x150.jpg
+1 2 0 3776 0 0
+/formanagement/wp-includes/js/heartbeat.min.js
+0 1 0 5877 0 0
+/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 22 0 413130 0 0
+/shop/wp-includes/js/dist/redux-routine.min.js
+0 5 0 48980 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.resize.min.js
+0 16 0 9312 0 0
+/shop/wp-includes/js/dist/keyboard-shortcuts.min.js
+0 3 0 16818 0 0
+/wp-includes/js/wp-emoji-release.min.js
+0 16 0 290896 0 0
+/shop/wp-includes/js/dist/url.min.js
+0 7 0 39886 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category.js
+0 3 0 84696 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category.js
+0 3 0 127260 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products.js
+0 5 0 137355 0 0
+/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2
+0 2 0 856896 0 0
+/wp-content/uploads/2022/05/t-shirt-with-logo-1-150x150.jpg
+1 2 0 3170 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/data/
+0 12 0 236476 0 0
+/formanagement/wp-includes/js/dist/blob.min.js
+0 1 0 1574 0 0
+/wp-admin/js/postbox.min.js
+0 9 0 60417 0 0
+/wp-includes/js/wp-backbone.min.js
+0 8 0 24296 0 0
+/shop/wp-includes/js/dist/dom.min.js
+0 5 0 67730 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/
+0 1 0 166468 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag.js
+0 3 0 93621 0 0
+/shop/wp-includes/js/zxcvbn.min.js
+0 6 0 4933422 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/round/round.min.js
+0 6 0 309 0 0
+/formanagemntshop/wp-admin/edit.php
+0 11 0 2130567 0 1
+/wp-includes/js/jquery/ui/datepicker.min.js
+0 8 0 294008 0 0
+/shop/wp-includes/css/editor.min.css
+0 3 0 81564 0 0
+/formanagemntshop/wp-includes/js/dist/blob.min.js
+0 2 0 3148 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-with-pocket-2-150x150.jpg
+1 2 0 3038 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors.js
+0 3 0 634059 0 0
+/formanagemntshop/wp-includes/js/wp-lists.min.js
+0 1 0 7442 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/csv-export/
+0 12 0 10696 0 0
+/formanagemntshop/wp-admin/
+0 2 0 165817 2 0
+/shop/wp-content/uploads/sites/2/2022/05/long-sleeve-tee-2-150x150.jpg
+1 2 0 3311 0 0
+/shop/wp-includes/js/dist/vendor/lodash.min.js
+0 7 0 511105 0 0
+/home-adaci/
+0 1 0 57911 1 0
+/shop/wp-admin/options-reading.php
+0 2 0 84428 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-sku.js
+0 3 0 1773 0 0
+/formanagement/wp-admin/admin-ajax.php
+0 23 0 1938 22 19
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/polo-2-150x150.jpg
+1 2 0 2878 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style.css
+0 22 0 145040 0 0
+/shop/wp-includes/js/dist/notices.min.js
+0 5 0 15590 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/1.js
+0 21 0 89110 0 0
+/formanagemntshop/wp-includes/js/wp-emoji-release.min.js
+0 6 0 109086 0 0
+/wp-content/themes/twentytwentyone/screenshot.png
+1 1 0 282897 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes.min.js
+0 8 0 1598 0 0
+/shop/wp-includes/js/jquery/ui/slider.min.js
+0 1 0 10750 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/number/
+0 12 0 4478 0 0
+/formanagemntshop/wp-admin/admin-ajax.php
+0 38 0 2920 21 19
+/formanagement/wp-includes/js/dist/vendor/react-dom.min.js
+0 1 0 120585 0 0
+/wp-includes/js/dist/element.min.js
+0 9 0 86859 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/css/menu.css
+0 3 0 5512 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-serializejson/jquery.serializejson.min.js
+0 6 0 5437 0 0
+/wp-includes/js/mediaelement/wp-mediaelement.min.js
+0 7 0 6342 0 0
+/wp-includes/js/dist/blob.min.js
+0 10 0 15740 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js
+0 1 0 2640 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers.js
+0 3 0 85254 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js
+0 3 0 28851 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+0 18 0 57198 0 0
+/wp-includes/js/thickbox/loadingAnimation.gif
+1 8 0 121904 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+0 1 0 2139 0 0
+/shop/shop/
+0 1 0 54856 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/core.min.js
+0 2 0 41428 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter.js
+0 3 0 131883 0 0
+/formanagement/wp-includes/js/wp-emoji-release.min.js
+0 1 0 18181 0 0
+/shop/wp-includes/js/jquery/ui/menu.min.js
+0 4 0 40464 0 0
+/shop/wp-includes/js/media-models.min.js
+0 5 0 71465 0 0
+/formanagemntshop/wp-admin/js/postbox.min.js
+0 1 0 6713 0 0
+/wp-includes/js/quicktags.min.js
+0 9 0 100188 0 0
+/shop/wp-admin/js/edit-comments.min.js
+0 7 0 106876 0 0
+/wp-includes/js/dist/dom-ready.min.js
+0 13 0 16341 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/homescreen.js
+0 1 0 418461 0 0
+/formanagemntshop/wp-admin/js/media-upload.min.js
+0 1 0 1152 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/jquery-ui/jquery-ui.min.css
+0 10 0 30044 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.stack.min.js
+0 1 0 1275 0 0
+/wp-includes/blocks/navigation/view.min.js
+0 4 0 37060 0 0
+/shop/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+0 5 0 5965 0 0
+/formanagement/wp-includes/js/backbone.min.js
+0 1 0 23794 0 0
+/shop/wp-includes/js/dist/block-directory.min.js
+0 3 0 66321 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/store-alerts.js
+0 12 0 11300 0 0
+/shop/wp-includes/js/dist/components.min.js
+0 5 0 3941125 0 0
+/formanagement/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+0 1 0 1193 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js
+0 1 0 7547 0 0
+/wp-includes/js/hoverintent-js.min.js
+0 17 0 29206 0 0
+/wp-includes/js/dist/block-editor.min.js
+0 5 0 2690090 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/49.style.css
+0 12 0 10828 0 0
+/wp-includes/js/api-request.min.js
+0 9 0 9225 0 0
+/wp-includes/js/jquery/jquery.ui.touch-punch.js
+0 5 0 5895 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/cap-2-150x150.jpg
+1 2 0 2587 0 0
+/wp-admin/network/update-core.php
+0 1 0 28601 1 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/album-1-150x150.jpg
+1 2 0 3700 0 0
+/wp-json/wp/v2/blocks
+0 6 0 12 0 0
+/shop/wp-includes/js/wp-ajax-response.min.js
+0 7 0 16184 0 0
+/wp-admin/images/wordpress-logo.svg
+0 9 0 13689 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+0 1 0 1834 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/currency/
+0 12 0 9936 0 0
+/formanagement/wp-admin/admin.php
+0 1 0 822680 0 0
+/wp-includes/js/dist/url.min.js
+0 11 0 62678 0 0
+/wp-admin/js/user-profile.min.js
+0 9 0 54918 0 0
+/shop/wp-includes/js/api-request.min.js
+0 7 0 7175 0 0
+/my-account/
+0 1 0 42687 0 0
+/shop/wp-content/uploads/sites/2/2022/05/polo-2-150x150.jpg
+1 2 0 2878 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/wc-status-widget.min.js
+0 12 0 6050 0 0
+/wp-admin/my-sites.php
+0 8 0 297120 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-format.js
+0 3 0 8109 0 0
+/formanagemntshop/wp-includes/js/dist/viewport.min.js
+0 2 0 6258 0 0
+/formanagement/wp-includes/js/admin-bar.min.js
+0 2 0 7112 0 0
+/shop/wp-content/uploads/sites/2/2022/05/album-1-150x150.jpg
+1 2 0 3700 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/belt-2-150x150.jpg
+1 3 0 2692 0 0
+/wp-admin/js/media-upload.min.js
+0 9 0 10368 0 0
+/formanagement/wp-includes/js/dist/redux-routine.min.js
+0 1 0 9796 0 0
+/wp-includes/js/jquery/jquery.min.js
+0 15 0 1342815 0 0
+/formanagement/wp-includes/js/dist/core-data.min.js
+0 1 0 48694 0 0
+/formanagement/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css
+0 1 0 11256 0 0
+/wp-content/themes/twentytwenty/screenshot.png
+1 3 0 159198 0 0
+/formanagement/wp-includes/js/dist/i18n.min.js
+0 1 0 10407 0 0
+/shop/wp-json/wc-admin/onboarding/profile
+0 1 0 330 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-stock-indicator.js
+0 5 0 6325 0 0
+/shop/wp-includes/js/thickbox/loadingAnimation.gif
+1 5 0 76190 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/number/
+0 22 0 11195 0 0
+/formanagement/wp-json/wc-admin/onboarding/tasks
+0 1 0 6336 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.pie.min.js
+0 16 0 62808 0 0
+/wp-includes/js/wplink.min.js
+0 8 0 90160 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/woocommerce_admin.min.js
+0 10 0 8792 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-format.js
+0 5 0 13515 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/reports.min.js
+0 12 0 32480 0 0
+/
+0 67 0 2038220 13 3
+/shop/wp-json/wc-admin/marketing/recommended
+0 1 0 3514 0 0
+/shop/wp-content/uploads/sites/2/2022/05/pennant-1-150x150.jpg
+1 2 0 2603 0 0
+/shop/wp-includes/js/wp-emoji-release.min.js
+0 8 0 145448 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+0 1 0 17809 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product.min.js
+0 6 0 12654 0 0
+/formanagemntshop/wp-includes/js/jquery/jquery.color.min.js
+0 1 0 9315 0 0
+/formanagement/wp-includes/js/wp-lists.min.js
+0 1 0 7442 0 0
+/wp-content/uploads/2022/05/vnech-tee-green-1-600x600.jpg
+1 1 0 20314 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks.js
+0 3 0 18741 0 0
+/formanagement/wp-includes/js/mediaelement/wp-mediaelement.min.css
+0 1 0 4186 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/tracks/
+0 12 0 20324 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/style.css
+0 1 0 15248 0 0
+/wp-admin/js/svg-painter.js
+0 17 0 93874 0 0
+/wp-includes/js/dist/deprecated.min.js
+0 9 0 14823 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter.js
+0 5 0 219805 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+0 4 0 28352 0 0
+/wp-admin/js/iris.min.js
+0 6 0 141858 0 0
+/shop/wp-admin/js/editor.min.js
+0 3 0 39633 0 0
+/shop/wp-includes/js/dist/editor.min.js
+0 3 0 425073 0 0
+/formanagemnt/wp-includes/css/dashicons.min.css
+0 1 0 59016 0 0
+/formanagemntshop/wp-includes/js/wp-util.min.js
+0 2 0 2680 0 0
+/shop/wp-includes/js/jquery/ui/autocomplete.min.js
+0 4 0 34108 0 0
+/wp-json/wp/v2/taxonomies
+0 6 0 60594 0 1
+/wp-admin/js/language-chooser.min.js
+0 3 0 1269 0 0
+/formanagemntshop/wp-admin/js/tags-suggest.min.js
+0 1 0 2250 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/
+0 12 0 332936 0 0
+/formanagemntshop/wp-includes/js/jquery/ui/menu.min.js
+0 1 0 10116 0 0
+/shop/wp-includes/js/dist/date.min.js
+0 7 0 1415848 0 0
+/formanagement/wp-includes/js/dist/priority-queue.min.js
+0 1 0 1636 0 0
+/shop/wp-includes/js/plupload/wp-plupload.min.js
+0 5 0 29895 0 0
+/wp-includes/js/dist/block-library.min.js
+0 5 0 3006455 0 0
+/shop/wp-includes/js/jquery/ui/core.min.js
+0 4 0 82856 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+0 1 0 17809 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/belt-2-450x450.jpg
+1 5 0 24216 0 0
+/shop/wp-includes/js/dist/block-library.min.js
+0 3 0 1803873 0 0
+/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css
+0 1 0 7887 0 0
+/wp-admin/images/spinner-2x.gif
+1 2 0 15072 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/notices/
+0 21 0 15250 0 1
+/shop/wp-content/plugins/woocommerce/assets/js/admin/quick-edit.min.js
+0 6 0 4508 0 0
+/shop/wp-includes/js/wp-lists.min.js
+0 7 0 52094 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes.min.js
+0 6 0 1598 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/date/
+0 1 0 20932 0 0
+/formanagement/wp-includes/js/thickbox/thickbox.js
+0 1 0 13194 0 0
+/shop/wp-login.php
+0 4 0 26130 0 0
+/wp-content/uploads/2022/05/vneck-tee-2-100x100.jpg
+1 1 0 1985 0 0
+/formanagemntshop/wp-admin/js/plugin-install.min.js
+0 1 0 2403 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/vneck-tee-2-150x150.jpg
+1 2 0 3137 0 0
+/shop/wp-includes/js/dist/escape-html.min.js
+0 5 0 8915 0 0
+/shop/wp-includes/js/quicktags.min.js
+0 7 0 77924 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+0 7 0 71236 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-summary.js
+0 5 0 10280 0 0
+/wp-content/uploads/2022/05/hoodie-with-logo-2-150x150.jpg
+1 2 0 3111 0 0
+/shop/wp-json/wc-admin/marketing/knowledge-base
+0 1 0 3436 0 0
+/shop/wp-json/wc-analytics/products/reviews
+0 1 0 2 0 0
+/formanagement/wp-admin/js/updates.min.js
+0 1 0 41173 0 0
+/wp-content/plugins/woocommerce/assets/js/admin/wc-enhanced-select.min.js
+0 23 0 36366 0 0
+/formanagemntshop/wp-includes/js/dist/html-entities.min.js
+0 2 0 2832 0 0
+/formanagemntshop/wp-admin/plugins.php
+0 1 0 52430 0 0
+/shop/wp-includes/js/mediaelement/wp-mediaelement.min.css
+0 3 0 12558 0 0
+/wp-admin/setup-config.php
+0 10 0 99945 0 0
+/formanagemntshop/wp-includes/js/dist/date.min.js
+0 2 0 404528 0 0
+/wp-includes/js/dist/keyboard-shortcuts.min.js
+0 5 0 28030 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.min.js
+0 1 0 34933 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product-variation.min.js
+0 6 0 19168 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/style.css
+0 22 0 17660 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.pie.min.js
+0 1 0 7851 0 0
+/wp-includes/js/dist/compose.min.js
+0 9 0 331308 0 0
+/wp-admin/network/about.php
+0 1 0 32812 0 0
+/formanagemntshop/wp-includes/js/underscore.min.js
+0 2 0 38138 0 0
+/formanagement/wp-includes/js/imgareaselect/imgareaselect.css
+0 1 0 790 0 0
+/formanagement/wp-includes/js/wp-backbone.min.js
+0 1 0 3037 0 0
+/wp-admin/options-general.php
+0 9 0 2076938 0 1
+/formanagemntshop/wp-content/themes/twentytwenty/style.css
+0 4 0 485828 0 0
+/wp-content/themes/twentytwenty/assets/css/editor-style-block.css
+0 3 0 118662 0 0
+/wp-includes/js/admin-bar.min.js
+0 17 0 60452 0 0
+/shop/wp-admin/css/l10n.min.css
+0 4 0 9908 0 0
+/wp-includes/js/jquery/jquery.color.min.js
+0 8 0 74520 0 0
+/formanagemntshop/wp-includes/js/dist/data.min.js
+0 2 0 48906 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/date/
+0 22 0 104660 0 0
+/shop/wp-includes/js/dist/hooks.min.js
+0 6 0 34140 0 0
+/wp-content/uploads/2022/05/vnech-tee-green-1-100x100.jpg
+1 1 0 1825 0 0
+/formanagemntshop/wp-includes/js/shortcode.min.js
+0 2 0 5300 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-context.js
+0 3 0 10440 0 0
+/formanagement/wp-json/wc-analytics/products/low-in-stock
+0 1 0 2 0 0
+/formanagemntshop/wp-includes/js/media-editor.min.js
+0 2 0 21818 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/style.css
+0 12 0 30496 0 0
+/wp-json/wc-admin/onboarding/profile/experimental_get_email_prefill
+0 2 0 86 0 0
+/wp-json/wp/v2/posts/1
+0 1 0 1883 0 0
+/wp-content/plugins/woocommerce/assets/js/round/round.min.js
+0 8 0 309 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.js
+0 5 0 147655 0 0
+/formanagemntshop/wp-includes/js/dist/redux-routine.min.js
+0 2 0 19592 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products.js
+0 5 0 656785 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/47.style.css
+0 2 0 47272 0 0
+/shop/wp-includes/js/jquery/ui/draggable.min.js
+0 1 0 18331 0 0
+/formanagemntshop/wp-includes/js/admin-bar.min.js
+0 6 0 21336 0 0
+/wp-includes/js/dist/shortcode.min.js
+0 10 0 40550 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css
+0 1 0 212343 0 0
+/shop/wp-content/plugins/woocommerce/assets/css/select2.css
+0 1 0 14615 0 0
+/formanagement/wp-includes/js/jquery/ui/menu.min.js
+0 1 0 10116 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag.js
+0 5 0 156035 0 0
+/formanagemntshop/wp-includes/js/dist/vendor/react.min.js
+0 2 0 22880 0 0
+/wp-admin/js/password-strength-meter.min.js
+0 9 0 10107 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/long-sleeve-tee-2-150x150.jpg
+1 2 0 3311 0 0
+/formanagement/wp-includes/js/dist/data.min.js
+0 1 0 24453 0 0
+/wp-includes/js/dist/escape-html.min.js
+0 9 0 16047 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/tracks/
+0 21 0 50810 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.style.css
+0 2 0 22178 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter.js
+0 5 0 129000 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.js
+0 1 0 10787 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/data/
+0 12 0 236476 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products.js
+0 3 0 394071 0 0
+/formanagemntshop/wp-includes/js/wp-backbone.min.js
+0 2 0 6074 0 0
+/formanagemntshop/wp-includes/js/plupload/wp-plupload.min.js
+0 2 0 11958 0 0
+/shop/wp-admin/js/updates.min.js
+0 7 0 288211 0 0
+/shop/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+0 1 0 158 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product.js
+0 5 0 159430 0 0
+/shop/wp-content/uploads/sites/2/2022/05/hoodie-with-logo-2-150x150.jpg
+1 3 0 3111 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/
+0 12 0 332936 0 1
+/formanagement/wp-content/plugins/woocommerce/assets/css/activation.css
+0 2 0 1593 0 0
+/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+0 34 0 23842 0 0
+/formanagemntshop/wp-includes/js/dist/deprecated.min.js
+0 2 0 3294 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/tshirt-2-150x150.jpg
+1 2 0 2801 0 0
+/formanagemntshop/wp-includes/css/dashicons.min.css
+0 3 0 177048 0 0
+/shop/wp-content/themes/twentytwenty/assets/js/editor-script-block.js
+0 3 0 534 0 0
+/wp-content/uploads/2022/05/vnech-tee-blue-1-100x100.jpg
+1 1 0 1888 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/wc-status-widget.min.js
+0 1 0 605 0 0
+/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+0 4 0 158 0 0
+/formanagement/wp-content/themes/twentytwenty/style.css
+0 1 0 121457 0 0
+/formanagement/wp-content/themes/twentytwenty/print.css
+0 1 0 2702 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/31.style.css
+0 1 0 39024 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories.js
+0 3 0 29625 0 0
+/wp-includes/js/jquery/ui/autocomplete.min.js
+0 10 0 85270 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search.js
+0 3 0 19074 0 0
+/shop/wp-includes/js/dist/data-controls.min.js
+0 5 0 11400 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.time.min.js
+0 1 0 4589 0 0
+/shop/wp-admin/
+0 15 0 1235474 15 1
+/formanagemntshop/wp-admin/js/edit-comments.min.js
+0 1 0 15268 0 0
+/formanagement/wp-includes/js/jquery/ui/autocomplete.min.js
+0 1 0 8527 0 0
+/wp-content/uploads/2022/05/beanie-2-150x150.jpg
+1 2 0 2457 0 0
+/wp-json/wp/v2/posts/65
+0 1 0 1660 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/currency/
+0 22 0 24840 0 1
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/49.style.css
+0 1 0 5414 0 0
+/shop/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+0 7 0 1567244 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-price.js
+0 5 0 22570 0 0
+/wp-admin/profile.php
+0 1 0 148269 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/store-alerts.js
+0 21 0 28250 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.js
+0 3 0 88593 0 0
+/wp-includes/js/dist/rich-text.min.js
+0 9 0 330642 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors.js
+0 5 0 1056765 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/data/
+0 21 0 591190 0 0
+/shop/wp-content/uploads/sites/2/2022/05/beanie-with-logo-1-150x150.jpg
+1 2 0 2447 0 0
+/formanagemntshop/wp-content/uploads/sites/4/2022/05/sunglasses-2-450x450.jpg
+1 5 0 19286 0 0
+/shop/wp-includes/js/dist/block-editor.min.js
+0 3 0 1614054 0 0
+/formanagemntshop/wp-json/wc-analytics/products/low-in-stock
+0 2 0 4 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/1.js
+0 1 0 17822 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.min.js
+0 10 0 279464 0 0
+/shop/wp-admin/js/dashboard.min.js
+0 7 0 61579 0 0
+/formanagemntshop/wp-includes/js/thickbox/thickbox.js
+0 1 0 13194 0 0
+/wp-includes/js/plupload/wp-plupload.min.js
+0 7 0 41853 0 0
+/formanagemntshop/wp-includes/js/mediaelement/wp-mediaelement.min.js
+0 2 0 1812 0 0
+/formanagement/wp-includes/js/dist/keycodes.min.js
+0 1 0 4143 0 0
+/formanagemntshop/wp-includes/js/dist/vendor/lodash.min.js
+0 2 0 146030 0 0
+/shop/wp-content/themes/twentytwenty/style.css
+0 7 0 850199 0 0
+/shop/wp-includes/js/wplink.min.js
+0 5 0 56350 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/marketing-overview.js
+0 1 0 77760 0 0
+/wp-admin/network/themes.php
+0 2 0 77742 0 0
+/wp-includes/js/mce-view.min.js
+0 7 0 69181 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.min.js
+0 1 0 34933 0 0
+/formanagement/wp-includes/js/dist/element.min.js
+0 1 0 9651 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/wc-enhanced-select.min.js
+0 10 0 6061 0 0
+/formanagemntshop/wp-includes/js/dist/dom.min.js
+0 2 0 27092 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 1 0 41313 0 0
+/shop/wp-includes/js/dist/wordcount.min.js
+0 3 0 9765 0 0
+/wp-cron.php
+0 3 0 0 4 111
+/shop/wp-admin/js/tags-suggest.min.js
+0 4 0 9000 0 0
+/shop/wp-admin/js/media-upload.min.js
+0 7 0 8064 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stock-filter.js
+0 5 0 94285 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css
+0 22 0 2335773 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/css/marketplace-suggestions.css
+0 6 0 21108 0 0
+/formanagemntshop/wp-includes/js/thickbox/loadingAnimation.gif
+1 1 0 15238 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style.css
+0 1 0 29008 0 0
+/wp-includes/js/jquery/ui/menu.min.js
+0 10 0 101160 0 0
+/formanagemntshop/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+0 2 0 2386 0 0
+/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+0 9 0 58446 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-context.js
+0 5 0 17400 0 0
+/shop/wp-admin/options-permalink.php
+0 2 0 98438 0 0
+/formanagement/wp-includes/js/hoverintent-js.min.js
+0 2 0 3436 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/experimental/
+0 21 0 272560 0 0
+/wp-json/wc-analytics/data/countries/locales
+0 2 0 15728 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 1 0 41313 0 0
+/wp-includes/js/dist/primitives.min.js
+0 9 0 26109 0 0
+/wp-includes/js/dist/dom.min.js
+0 9 0 121914 0 0
+/product/v-neck-t-shirt/
+0 1 0 79964 0 0
+/wp-includes/js/dist/reusable-blocks.min.js
+0 5 0 34770 0 0
+/wp-includes/js/dist/warning.min.js
+0 9 0 26388 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+0 1 0 7043 0 0
+/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css
+0 5 0 56280 0 0
+/wp-includes/js/dist/server-side-render.min.js
+0 5 0 23950 0 0
+/formanagemntshop/wp-json/wc-analytics/orders
+0 2 0 4 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+0 1 0 1834 0 0
+/shop/wp-includes/js/jquery/jquery.ui.touch-punch.js
+0 1 0 1179 0 0
+/wp-admin/admin-ajax.php
+0 308 0 488345 91 7
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/profile-wizard.js
+0 2 0 176300 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/legacy-template.js
+0 3 0 17991 0 0
+/wp-includes/js/media-views.min.js
+0 7 0 779870 0 0
+/wp-admin/js/image-edit.min.js
+0 7 0 78841 0 0
+/formanagement/wp-includes/js/media-models.min.js
+0 1 0 14293 0 0
+/formanagemntshop/wp-includes/js/wp-sanitize.min.js
+0 1 0 458 0 0
+/shop/wp-includes/js/jquery/jquery.color.min.js
+0 6 0 55890 0 0
+/formanagemnt/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js
+0 1 0 2938 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers.js
+0 5 0 142090 0 0
+/shop/wp-json/wc-admin/onboarding/product-types
+0 1 0 1620 0 0
+/formanagemntshop/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js
+0 2 0 19446 0 0
+/shop/wp-includes/js/dist/vendor/moment.min.js
+0 7 0 408275 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/tracks/
+0 1 0 10162 0 0
+/wp-admin/network/site-themes.php
+0 1 0 31350 0 0
+/shop/wp-includes/js/dist/blob.min.js
+0 5 0 7870 0 0
+/wp-content/plugins/woocommerce/assets/css/activation.css
+0 37 0 14337 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-button.js
+0 3 0 19050 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-image.js
+0 3 0 7017 0 0
+/shop/wp-includes/js/dist/reusable-blocks.min.js
+0 3 0 20862 0 0
+/formanagement/wp-content/plugins/woocommerce/assets/css/dashboard.css
+0 1 0 5081 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/currency/
+0 1 0 4968 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.style.css
+0 1 0 11089 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/admin/meta-boxes-product-variation.min.js
+0 6 0 19168 0 0
+/wp-includes/js/dist/data.min.js
+0 9 0 220077 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.js
+0 3 0 89856 0 0
+/shop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.stack.min.js
+0 10 0 10200 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/explat/
+0 21 0 124290 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.stack.min.js
+0 1 0 1275 0 0
+/formanagement/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/chunks/3.style.css
+0 1 0 11089 0 0
+/formanagement/wp-admin/images/spinner.gif
+1 1 0 3656 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js
+0 5 0 167735 0 0
+/wp-includes/js/dist/core-data.min.js
+0 9 0 438246 0 0
+/shop/wp-content/uploads/sites/2/2022/05/belt-2-150x150.jpg
+1 2 0 2692 0 0
+/formanagemntshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js
+0 12 0 15094 0 0
+/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/customer-effort-score/
+0 21 0 25445 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-hocs.js
+0 3 0 7974 0 0
+/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+0 46 0 152528 0 0
+/wp-content/uploads/2022/05/beanie-with-logo-1-150x150.jpg
+1 2 0 2447 0 0
+/wp-includes/css/dist/block-library/style.min.css
+0 10 0 834190 0 0
+/formanagemntshop/wp-admin/js/iris.min.js
+0 1 0 23643 0 0
+/shop/wp-includes/js/media-audiovideo.min.js
+0 5 0 64820 0 0
+/shop/wp-content/uploads/sites/2/2022/05/sunglasses-2-150x150.jpg
+1 2 0 2261 0 0
+/formanagement/wp-includes/js/quicktags.min.js
+0 1 0 11132 0 0
+/shop/wp-includes/js/dist/vendor/react.min.js
+0 5 0 57200 0 0
+/shop/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/date/
+0 12 0 41864 0 0
+/wp-admin/images/about-header-about.svg
+0 2 0 10048 0 0
+/shop/wp-content/uploads/sites/2/2022/05/beanie-2-150x150.jpg
+1 2 0 2457 0 0
+/formanagement/wp-includes/js/dist/warning.min.js
+0 1 0 2932 0 0
+# End Of Table - urls
+# -sites- (monthly)
+14.102.161.107
+0 7630 4769 215457412 290 1651718450
+/wp-admin/admin-ajax.php
+# End Of Table - sites (monthly)
+# -sites- (daily)
+14.102.161.107
+0 204 185 8632317 11 1651718450
+/wp-admin/admin-ajax.php
+# End Of Table - sites (daily)
+# -referrers- 
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/plugin-install.php
+0 22
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/plugins/woocommerce/assets/css/dashboard.css
+0 2
+http://adaci.demo1.bytestechnolab.com/shop/wp-login.php
+0 70
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-content/uploads/sites/4/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/network.php
+0 5
+http://adaci.demo1.bytestechnolab.com/wp-admin/css/install.min.css
+0 6
+http://adaci.demo1.bytestechnolab.com/sample-page/
+0 2
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-admin/load-styles.php
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/site-new.php
+0 127
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/about.php
+0 2
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-admin/plugins.php
+0 11
+http://adaci.demo1.bytestechnolab.com/formanagemnt/
+0 23
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/setup.php
+0 27
+http://adaci.demo1.bytestechnolab.com/wp-signup.php
+0 19
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/admin.php
+0 224
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/upgrade.php
+0 4
+http://adaci.demo1.bytestechnolab.com/shop/
+0 199
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/
+0 40
+http://adaci.demo1.bytestechnolab.com/home-adaci/
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/cart/
+0 8
+http://adaci.demo1.bytestechnolab.com/wp-admin/options-general.php
+0 59
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/plugins.php
+0 27
+http://adaci.demo1.bytestechnolab.com/wp-admin/update-core.php
+0 8
+http://adaci.demo1.bytestechnolab.com/formanagemnt/wp-cron.php
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/profile.php
+0 17
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-cron.php
+0 25
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/options-permalink.php
+0 3
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/edit.php
+0 508
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/post.php
+0 122
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-cron.php
+0 25
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-content/themes/twentytwenty/style.css
+0 4
+http://adaci.demo1.bytestechnolab.com/wp-admin/admin.php
+0 158
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/update-core.php
+0 3
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-content/plugins/woocommerce/assets/css/menu.css
+0 3
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/load-styles.php
+0 1
+http://adaci.demo1.bytestechnolab.com/2022/05/02/hello-world/
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/site-info.php
+0 96
+http://adaci.demo1.bytestechnolab.com/wp-admin/admin-ajax.php
+0 7
+- (Direct Request)
+0 837
+http://adaci.demo1.bytestechnolab.com/wp-admin/options-permalink.php
+0 10
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/
+0 271
+http://adaci.demo1.bytestechnolab.com/shop/adaci-shop/
+0 15
+http://adaci.demo1.bytestechnolab.com/shop/wp-cron.php
+0 77
+http://adaci.demo1.bytestechnolab.com/shop/shop/
+0 14
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/sites.php
+0 288
+http://adaci.demo1.bytestechnolab.com/wp-admin/post.php
+0 273
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/plugins/woocommerce/assets/css/admin.css
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/load-styles.php
+0 2
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-content/uploads/sites/3/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/uploads/sites/5/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/admin.php
+0 184
+http://adaci.demo1.bytestechnolab.com/wp-admin/setup-config.php
+0 39
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/settings.php
+0 10
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-content/themes/twentytwenty/style.css
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/index.php
+0 7
+http://adaci.demo1.bytestechnolab.com/wp-admin/edit.php
+0 1105
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/themes.php
+0 2
+http://adaci.demo1.bytestechnolab.com/product/v-neck-t-shirt/
+0 28
+http://adaci.demo1.bytestechnolab.com/home/
+0 10
+http://adaci.demo1.bytestechnolab.com/wp-admin/options-reading.php
+0 3
+http://adaci.demo1.bytestechnolab.com/wp-admin/users.php
+0 1
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/admin-ajax.php
+0 20
+http://adaci.demo1.bytestechnolab.com/wp-content/uploads/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/post-new.php
+0 97
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/site-settings.php
+0 10
+http://adaci.demo1.bytestechnolab.com/wp-admin/index.php
+0 2
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/
+0 33
+http://adaci.demo1.bytestechnolab.com/wp-admin/about.php
+0 7
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-admin/
+0 51
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/plugins/woocommerce/assets/css/menu.css
+0 7
+http://adaci.demo1.bytestechnolab.com/formanagement/
+0 24
+http://adaci.demo1.bytestechnolab.com/formanagemnt/wp-content/themes/twentytwenty/style.css
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/css/login.min.css
+0 6
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/options-reading.php
+0 3
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/site-themes.php
+0 3
+http://adaci.demo1.bytestechnolab.com/wp-admin/install.php
+0 16
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/options-general.php
+0 8
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/plugins.php
+0 5
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-content/uploads/sites/7/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/my-sites.php
+0 24
+http://adaci.demo1.bytestechnolab.com/wp-content/themes/twentytwenty/style.css
+0 10
+http://adaci.demo1.bytestechnolab.com/wp-content/plugins/woocommerce/assets/css/admin.css
+0 4
+http://adaci.demo1.bytestechnolab.com/wp-admin/themes.php
+0 53
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/themes/twentytwenty/assets/css/editor-style-block.css
+0 1
+http://adaciformanagement.demo1.bytestechnolab.com/
+0 2
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/index.php
+0 50
+http://adaci.demo1.bytestechnolab.com/wp-admin/plugins.php
+0 50
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-admin/plugins.php
+0 11
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/site-users.php
+0 9
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/
+0 41
+http://adaci.demo1.bytestechnolab.com/wp-login.php
+0 123
+http://adaci.demo1.bytestechnolab.com/wp-cron.php
+0 202
+http://adaci.demo1.bytestechnolab.com/
+0 336
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/edit.php
+0 527
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-content/plugins/woocommerce/assets/css/menu.css
+0 1
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/shop/
+0 94
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/uploads/sites/2/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-admin/admin-ajax.php
+0 22
+http://adaci.demo1.bytestechnolab.com/cart/
+0 8
+http://adaci.demo1.bytestechnolab.com/wp-content/plugins/woocommerce/assets/css/twenty-twenty.css
+0 1
+http://adaci.demo1.bytestechnolab.com/wp-admin/load-styles.php
+0 6
+http://adaci.demo1.bytestechnolab.com/formanagemntshop/wp-content/plugins/woocommerce/assets/css/admin.css
+0 2
+http://adaci.demo1.bytestechnolab.com/formanagemnt/wp-content/uploads/sites/6/woocommerce_uploads/
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/admin-ajax.php
+0 64
+http://adaci.demo1.bytestechnolab.com/wp-content/plugins/woocommerce/assets/css/menu.css
+0 3
+http://adaci.demo1.bytestechnolab.com/shop/wp-admin/css/login.min.css
+0 4
+http://adaci.demo1.bytestechnolab.com/wp-admin/network/users.php
+0 1
+http://adaci.demo1.bytestechnolab.com/shop/wp-content/themes/twentytwenty/style.css
+0 5
+http://adaci.demo1.bytestechnolab.com/wp-admin/
+0 525
+http://adaci.demo1.bytestechnolab.com/formanagement/wp-admin/admin.php
+0 112
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+0 14
+WordPress/5.9.3; http://adaci.demo1.bytestechnolab.com/formanagemntshop
+0 47
+WordPress/5.9.3; http://adaci.demo1.bytestechnolab.com/shop
+0 143
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+0 5861
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 
+0 52
+WordPress/5.9.3; http://adaci.demo1.bytestechnolab.com
+0 211
+WordPress/5.9.3; http://adaci.demo1.bytestechnolab.com/formanagement
+0 48
+WordPress/5.9.3; http://adaci.demo1.bytestechnolab.com/formanagemnt
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+0 15
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5 skype-url-preview@microsoft.com
+0 7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+0 650
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+0 8
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+0 569
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+bytes
+0 5930 4140 204973997 32 1651718443
+# End Of Table - usernames
