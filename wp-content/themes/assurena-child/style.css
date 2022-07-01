@@ -1,0 +1,303 @@
+/*
+Theme Name: Assurena Child
+Author: StylusThemes
+Author URI: https://stylusthemes.com/
+Description: -
+Version: 1.0
+Template: assurena
+Text Domain:  assurena-child
+*/
+
+.info .cstm-radio input { width: 15px !important; height: 15px !important; margin: 0 10px 0px 0px; }
+.cstm-radio { display: flex; align-items: center; flex-wrap: wrap; align-content: flex-start; }
+.cstm-row{ display: flex; justify-content: space-between; flex-wrap: wrap; }
+.cstm-row select { height: 50px;}
+.cstm-radio span{ flex-basis: 100%; margin-bottom: 10px; color: #2f3d48; }
+.info .cstm-radio label{ margin-bottom: 0; margin-right: 10px; }
+.error-border{ border-color: #ff9292 !important; }
+.error{ color: red !important; font-size: 10px; }
+.bio .full-width, .working-position .full-width{ width: 100%; display: flex; flex-wrap: wrap; }
+.upload-file.cstm-row input{ padding: 0 !important; border: 0 !important; height: auto;}
+.upload-file.cstm-row { margin-bottom: 20px; }
+
+/* 07/06/2022 */
+#main{
+    padding:0px 0px !important;
+}
+.agency button{padding: 8px 18px;}
+.agency-outer {flex-basis: 100%;}
+span.agency{ display: flex; justify-content: space-between; }
+
+.address h5 { margin-bottom: 30px; }
+.contact-info h6, .newsletter h6{ margin-bottom: 20px; text-decoration: underline; }
+
+label.supplies-purchased { display: flex; align-items: baseline;}
+
+/**
+ *  Multi Step Form css
+ */
+ 
+.container-fluid{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#heading {
+    text-transform: uppercase;
+    color: #673AB7;
+    font-weight: normal
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #673AB7
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f023"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f1ad";
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f2c2"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+ /**
+  * End Multi Step Form css
+  */
+
+/*Start to added by Hetal*/
+.info .cstm-radio label{
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+#msform p.cstm-radio input , #msform span.agency input{
+    margin-bottom: 0;
+}
+label.language-options input[type="checkbox"] {
+    width: auto !important;
+    margin-right: 5px;
+}
+#msform label.language-options input[type="checkbox"] {
+    margin-bottom: 0;
+    width: auto !important;
+    margin-right: 10px;
+}
+#msform .agency-outer .agency .action-button {
+    margin: 2px 0;
+    text-align: center;
+}
+.cstm-row select#supplies-purchased {
+    height: 125px;
+    padding: 10px 15px;
+}
+.cstm-row select#supplies-purchased option {
+    padding: 3px 0;
+}
+/* End to added by Hetal*/
+
+
+@media screen and (min-width:767px) {
+    .name .small{ width: 9%; }
+    .name .medium{ width: 29%; }
+    .upload-file p,.job-info p,.bio p,.info p,.residence-address p,.contact p, .birth-detail p,.working-position p, .company-data p { width: 49%; }
+    label.language-options { flex-basis: 17%; }
+    label.supplies-purchased { flex-basis: 33%; }
+    .custm-row { display: flex; margin-bottom: 50px; justify-content: space-between; }
+    .custm-row div{ flex-basis: 49%; }
+    .address h5,.under-line{ border-bottom: 1px solid #000; }
+}
+
+@media (max-width : 768px) and (min-width:576px) {
+    .cstm-row p { width: 49%; }
+    label.language-options, label.supplies-purchased { flex-basis: 50%; }
+}
+@media screen and (max-width:575px){
+    .cstm-row p { width: 100%; }
+    label.language-options, label.supplies-purchased { flex-basis: 50%; }
+}
