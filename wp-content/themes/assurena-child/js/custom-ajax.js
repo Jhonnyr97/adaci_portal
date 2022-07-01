@@ -291,14 +291,9 @@ jQuery(document).ready(function ($) {
                     'from_data' : formdata,
                     },
                 success: function(response) {
-                    /*console.log(response);
-                    console.log("-------------------------");
-                    console.log(response.status);*/
-                    if(response == 'success'){
-                        
-                        
-
-                    }   
+                    
+                    /*if(response == 'success'){
+                    } */  
                 }
             });
 
@@ -317,16 +312,11 @@ jQuery(document).ready(function ($) {
                     'from_data' : formdata,
                     },
                 success: function(response) {
-                    /*console.log(response);
-                    console.log("-------------------------");
-                    console.log(response.status);*/
-                    /*if(response == 'success'){
-                        
-                        window.location.replace(my_account.link);
-                        setTimeout(function(){
-                                $("#show").show();                            
-                        }, 3000);
-                    }   */
+                   
+                    if(response == 'success'){
+                                            
+                        jQuery("#success_send_otp").show().delay(5000).fadeOut();
+                    }   
                 }
             });
 

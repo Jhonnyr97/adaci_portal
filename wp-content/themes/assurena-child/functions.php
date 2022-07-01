@@ -287,26 +287,18 @@ function adaci_login_otp_generator(){
 }
 
 
-
-
-/*
-
-add_action( 'init','auto_login');
-
-function auto_login( $user ) {
- ob_start();
- $username = $user;
- // log in automatically
- if ( !is_user_logged_in() ) {
- 	$user_id = 16;
- $user = get_user_by( 'id', $user_id ); 
- $user_login = $user->data->user_login;
- $user_id = $user->ID;
- wp_set_current_user( $user_id, $user_login );
- wp_set_auth_cookie( $user_id );
- do_action( 'wp_login', $user_login );
- wp_redirect(get_site_url());
- } 
- ob_end_clean();
-}*/
+/**
+ *  Set url for send 
+ */ 
+function get_user_activation_url($user_id){
+	
+	$resend_timestamp = get_user_meta( $user_id, 'alg_wc_ev_activation_email_sent', true );
+		$nonce_required   = true;
+		$url_params       = array( 'alg_wc_ev_user_id' => $user_id );
+		if ( $nonce_required ) {
+			$url_params['alg_wc_ev_nonce'] = wp_create_nonce( "resend-{$user_id}-{$resend_timestamp}" );
+		}
+		$data = add_query_arg( $url_params, get_option( 'alg_wc_ev_resend_verification_url', '' ) );
+		
+}
 

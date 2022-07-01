@@ -471,6 +471,7 @@ add_action("wp_ajax_adaci_custom_login_for_user", "adaci_custom_login_for_user")
 add_action("wp_ajax_nopriv_adaci_custom_login_for_user", "adaci_custom_login_for_user");
 
 function adaci_custom_login_for_user() {
+    $response = array('status' => 201); 
     $response = "";
     $userAuthentication = "";
     $formdata = $_POST['from_data'];
@@ -480,37 +481,81 @@ function adaci_custom_login_for_user() {
     if(!empty($_POST['username'])){
 
          $user = get_user_by( 'email', $_POST['username'] );
-         
+       
+         if(get_user_meta($user->ID,'alg_wc_ev_is_activated', true) == 1){
 
-         $OTP = adaci_login_otp_generator();
+            $OTP = adaci_login_otp_generator();
          
-         $to = $_POST['username'];
-        $subject = 'Adaci IT Website Login OTP';
-        $message = 'Your OTP is '.$OTP.' for login Adaci IT Website';
-        global $wpdb;
-        $resultOTP = $wpdb->update($wpdb->users, array('OTP' => $OTP), array('ID' => $user->ID));
-        if($resultOTP){
+            $to = $_POST['username'];
+            $subject = 'Adaci IT Website Login OTP';
+            $message = 'Your OTP is '.$OTP.' for login Adaci IT Website';
+            global $wpdb;
+            $resultOTP = $wpdb->update($wpdb->users, array('OTP' => $OTP), array('ID' => $user->ID));
+            if($resultOTP){
 
-            $result = wp_mail( $to, $subject, $message );        
-            if($result){
-                $response = 200; 
-            }else{
-                $response = 500;
+                $result = wp_mail( $to, $subject, $message );        
+                if($result){
+                    $response = 200; 
+                }else{
+                    $response = 500;
+                }
+
             }
-
-        }
-
-        
-
-
+         }else{
+            //$activate_url = get_user_activation_url($user->ID);
+            /*alg_wc_ev_add_notice("hello");*/
+            $response = 401;
+         }
+                   
     }elseif(!empty($_POST['phone_number'])){
 
+        $phone = trim($_POST['phone_number']);
+        $users = get_users(array('meta_key' => 'business_mobile','meta_value' => '+1 (358) 197-5428','meta_compare' => '='));
 
-        
+        /*if($users){
 
-    }
+            $OTP = adaci_login_otp_generator();
+            $payload = { 
+                  "message_type": "Adaci Login OTP", 
+                  "message": $OTP,
+                  "recipient": [
+                      $phone
+                  ],
+                  "sender": "Adaci IT",
+                  "returnCredits": true
+              };
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://smspanel.aruba.it/API/v1.0/REST/sms');
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Content-type: application/json',
+                'user_key: USER_KEY',
+                // Use this when using session key authentication
+                'Session_key: SESSION_KEY',
+                // When using Access Token authentication, use this instead:
+                // 'Access_token: UserParam{access_token}'
+            ));
+
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+            $response = curl_exec($ch);
+            $info = curl_getinfo($ch);
+            curl_close($ch);
+            if ($info['http_code'] != 201) {
+                echo('Error! http code: ' . $info['http_code'] . ', body message: ' . $response);
+            }else {
+
+                $obj = json_decode($response);
+                print_r($obj);
+            }
+        }*/
+
+    }else{
+
+        $response = 500;
+    }        
     
-   echo $response;
+   echo wp_json_encode($response);
 
     exit();
 }
