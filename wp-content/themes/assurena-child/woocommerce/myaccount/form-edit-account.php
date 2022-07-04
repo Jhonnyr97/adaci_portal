@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_before_edit_account_form' ); ?>
 
 <form class="woocommerce-EditAccountForm edit-account" action="" method="post" <?php do_action( 'woocommerce_edit_account_form_tag' ); ?> >
-	<?php echo $user->ID; ?>
+	<?php // echo $user->ID; ?>
 	<?php do_action( 'woocommerce_edit_account_form_start' ); ?>
 	<div class="contact-info">
 		<h2>MODIFICA INFORMAZIONI ACCOUNT</h2>
