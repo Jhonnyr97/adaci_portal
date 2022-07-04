@@ -129,7 +129,7 @@
               
            </p>
         </div>
-        <div class="job-info cstm-row"> 
+        <?php /*<div class="job-info cstm-row"> 
            <p>
               <label for="company_data">Company Data</label>
               <textarea name="company_data" id="company_data" cols="30" rows="10"></textarea>
@@ -138,7 +138,7 @@
               <label for="summary">Summary</label>
               <textarea name="summary" id="summary" cols="30" rows="10"></textarea>
            </p>
-        </div>
+        </div>*/?>
         <div class="upload-file cstm-row">
            <p>
               <label for="cv">Select a CV:</label>
