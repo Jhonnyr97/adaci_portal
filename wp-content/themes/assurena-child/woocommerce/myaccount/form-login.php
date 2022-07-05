@@ -31,7 +31,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 //&& isset($_REQUEST['test']) == 'test'
 ?>
 
-<?php if(CustomLogin == true ){ ?>
+<?php if(CustomLogin == true && $_REQUEST['test'] != 'test'){ ?>
 
 	<h2><?php esc_html_e( 'Custom Login', 'woocommerce' ); ?></h2>
 

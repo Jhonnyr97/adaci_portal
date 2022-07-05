@@ -262,9 +262,10 @@ jQuery(document).ready(function ($) {
                     'action' : 'adaci_custom_login_for_user',
                     'from_data' : formdata,
                     },
+                dataType: 'json',
                 success: function(response) {
-                    
-                    if(response == '200'){
+                    console.log(response.status);
+                    if(response.status == '200'){
                         
                         jQuery("#custom_user_login").css('display','none');
                         jQuery("#user_otp_verification").css('display','block');
@@ -272,6 +273,10 @@ jQuery(document).ready(function ($) {
                         setTimeout(function() {
                             jQuery("#user_otp_verification .otp_send_again").show();
                           }, 30000);
+                    }else if(response.status == '401'){
+                        if(response.activate_url){
+                            jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.activate_url);
+                        }
                     }
                 }
             });

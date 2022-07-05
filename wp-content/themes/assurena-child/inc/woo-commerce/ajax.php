@@ -462,6 +462,8 @@ function adaci_user_working_postion_company_save() {
      die();
 }
 
+
+
 /**
 * Custom Login Ajax Function
 */
@@ -472,14 +474,12 @@ add_action("wp_ajax_nopriv_adaci_custom_login_for_user", "adaci_custom_login_for
 
 function adaci_custom_login_for_user() {
     $response = array('status' => 201); 
-    $response = "";
-    $userAuthentication = "";
     $formdata = $_POST['from_data'];
     parse_str($formdata, $_POST);
 
     
     if(!empty($_POST['username'])){
-
+        
          $user = get_user_by( 'email', $_POST['username'] );
        
          if(get_user_meta($user->ID,'alg_wc_ev_is_activated', true) == 1){
@@ -495,16 +495,28 @@ function adaci_custom_login_for_user() {
 
                 $result = wp_mail( $to, $subject, $message );        
                 if($result){
-                    $response = 200; 
+                    $response = array('status' => 200); 
                 }else{
-                    $response = 500;
+                    $response = array('status' => 201);
                 }
 
             }
          }else{
-            //$activate_url = get_user_activation_url($user->ID);
+            
+            $activate_html = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                                            <li>
+                                                Your account has to be activated before you can login. You can resend the email with verification link by clicking <a href="'.get_user_activation_url($user->ID).'">here</a>.                 </li>
+                                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
             /*alg_wc_ev_add_notice("hello");*/
-            $response = 401;
+            $response = array('status' => 401, 'activate_url' => $activate_html);
          }
                    
     }elseif(!empty($_POST['phone_number'])){
@@ -552,7 +564,7 @@ function adaci_custom_login_for_user() {
 
     }else{
 
-        $response = 500;
+        $response = array('status' => 401);
     }        
     
    echo wp_json_encode($response);

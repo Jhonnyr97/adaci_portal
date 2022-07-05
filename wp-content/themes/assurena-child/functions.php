@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'stl_child_scripts' );
 
  if ( ! defined( 'ADACI_C_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'ADACI_C_VERSION', '1.0.7' );
+	define( 'ADACI_C_VERSION', '1.1.2' );
 }
 
 /**
@@ -292,13 +292,15 @@ function adaci_login_otp_generator(){
  */ 
 function get_user_activation_url($user_id){
 	
-	$resend_timestamp = get_user_meta( $user_id, 'alg_wc_ev_activation_email_sent', true );
+	 $resend_timestamp = get_user_meta( $user_id, 'alg_wc_ev_activation_email_sent', true );
 		$nonce_required   = true;
 		$url_params       = array( 'alg_wc_ev_user_id' => $user_id );
 		if ( $nonce_required ) {
 			$url_params['alg_wc_ev_nonce'] = wp_create_nonce( "resend-{$user_id}-{$resend_timestamp}" );
 		}
 		$data = add_query_arg( $url_params, get_option( 'alg_wc_ev_resend_verification_url', '' ) );
+
+		return $data;
 		
 }
 
