@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'stl_child_scripts' );
 
  if ( ! defined( 'ADACI_C_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'ADACI_C_VERSION', '1.1.2' );
+	define( 'ADACI_C_VERSION', '1.1.8' );
 }
 
 /**
@@ -303,4 +303,3 @@ function get_user_activation_url($user_id){
 		return $data;
 		
 }
-

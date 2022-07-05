@@ -73,9 +73,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 		</form>
 		<form id="user_otp_verification" method="post" style="display:none">
-			<p class="form-row" id="success_send_otp" style="display:none">
-				<label for="send_otp" style="color:green;"><?php esc_html_e( 'Check your Enter Email or Phone Number for OTP Verifictaion', 'woocommerce' ); ?></label>
-			</p>
+			
 			<p class="form-row">
 				<label for="phone_number"><?php esc_html_e( 'OTP Verifictaion', 'woocommerce' ); ?></label>
 				<input type="text" name="otp_verification" id="otp_verification" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Please Enter OTP">

@@ -495,9 +495,31 @@ function adaci_custom_login_for_user() {
 
                 $result = wp_mail( $to, $subject, $message );        
                 if($result){
-                    $response = array('status' => 200); 
+                    $otp_send = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Check your Entered Email or Phone Number for OTP Verification.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+                    $response = array('status' => 200, 'send' => $otp_send); 
                 }else{
-                    $response = array('status' => 201);
+                    $otp_send = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Please try again.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+                    $response = array('status' => 201, 'notsend' => $otp_send);
                 }
 
             }
@@ -586,7 +608,7 @@ function adaci_user_otp_verification(){
 
     $formdata = $_POST['from_data'];
     parse_str($formdata, $_POST);
-    $response = "";
+    $response = array('status' => 'fail'); 
 
     if($_POST['otp_verification']){
         
@@ -594,35 +616,91 @@ function adaci_user_otp_verification(){
         global $wpdb;        
         $OTP = $wpdb->get_results("SELECT OTP FROM $wpdb->users WHERE ID = ".$user->ID." ");
         
+        if(empty($OTP)){
 
-        if($_POST['otp_verification'] == $OTP[0]->OTP){
-            global $wpdb;          
-            $resultOTP = $wpdb->update($wpdb->users, array('OTP' => ""), array('ID' => $user->ID));
-            if($resultOTP){
-                   // log in automatically 
-                if ( !is_user_logged_in() ) {
-                   
-                     $user_id = $user->ID;
-                     $user = get_user_by( 'id', $user_id ); 
-                     $user_id = $user->ID;
-                     $user_login = $user->data->user_login;
-                   
-                     wp_set_current_user( $user_id, $user_login );                    
-                     wp_set_auth_cookie( $user_id );                    
-                     do_action( 'wp_login', $user_login, $user ); 
-                }
-                $response = "success";
-
-            }else{
-                $response = "fail";
-            }             
-        }else{            
+            $emptyOTP = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Please try again for login.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+            $response = array('status' => 'fail', 'invalid' => $emptyOTP, 'again' => true);
             $response = "fail";
+
+        }else{
+
+            if($_POST['otp_verification'] == $OTP[0]->OTP){
+                global $wpdb;          
+                $resultOTP = $wpdb->update($wpdb->users, array('OTP' => ""), array('ID' => $user->ID));
+                if($resultOTP){
+                       // log in automatically 
+                    if ( !is_user_logged_in() ) {
+                       
+                         $user_id = $user->ID;
+                         $user = get_user_by( 'id', $user_id ); 
+                         $user_id = $user->ID;
+                         $user_login = $user->data->user_login;
+                       
+                         wp_set_current_user( $user_id, $user_login );                    
+                         wp_set_auth_cookie( $user_id );                    
+                         do_action( 'wp_login', $user_login, $user ); 
+                         
+                    }
+                    $response = array('status' => 'success', 'redirect' => get_permalink( get_option('woocommerce_myaccount_page_id')));
+
+                }else{
+                    $emptyOTP = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                                    <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                                    <div class="message_content" bis_skin_checked="1">
+                                        <div class="message_text" bis_skin_checked="1"> 
+                                            <ul class="woocommerce-error" role="alert">
+                                                <li>Please try again for login.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="message_close_button"></span>
+                                </div>';
+                    $response = array('status' => 'fail', 'invalid' => $emptyOTP);
+                    $response = "fail";
+                }             
+            }else{  
+
+                $emptyOTP = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                                    <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                                    <div class="message_content" bis_skin_checked="1">
+                                        <div class="message_text" bis_skin_checked="1"> 
+                                            <ul class="woocommerce-error" role="alert">
+                                                <li>Please Enter Valid OTP for Verification.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="message_close_button"></span>
+                                </div>';
+                $response = array('status' => 'fail', 'invalid' => $emptyOTP);
+            }
         }
     }else{
-        $response = "fail";
+        $emptyOTP = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Please Enter OTP for Verification.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+        $response = array('status' => 'fail', 'invalid' => $emptyOTP);
+
+        
     }
-    echo $response;
+    echo wp_json_encode($response);
     die();
 }
 

@@ -269,10 +269,13 @@ jQuery(document).ready(function ($) {
                         
                         jQuery("#custom_user_login").css('display','none');
                         jQuery("#user_otp_verification").css('display','block');
-                        jQuery("#success_send_otp").show().delay(5000).fadeOut();
+                        jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.send);
                         setTimeout(function() {
                             jQuery("#user_otp_verification .otp_send_again").show();
                           }, 30000);
+                    }
+                    else if(response.status == '201'){
+                        jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.send);
                     }else if(response.status == '401'){
                         if(response.activate_url){
                             jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.activate_url);
@@ -295,10 +298,22 @@ jQuery(document).ready(function ($) {
                     'action' : 'adaci_user_otp_verification',
                     'from_data' : formdata,
                     },
+                dataType: 'json',
                 success: function(response) {
                     
-                    /*if(response == 'success'){
-                    } */  
+                    if(response.status == 'fail'){
+                        if(response.again == true){
+                            jQuery("#custom_user_login").css('display','block');
+                            jQuery("#user_otp_verification").css('display','none');
+                            jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.invalid);
+                        }else if(response.invalid){
+                            jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.invalid);
+                        } 
+                    }else if(response.status == 'success'){
+                        if(response.redirect){
+                            window.location.replace(response.redirect);
+                        }
+                    }   
                 }
             });
 
