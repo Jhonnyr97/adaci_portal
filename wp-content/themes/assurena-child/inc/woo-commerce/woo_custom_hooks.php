@@ -6,6 +6,7 @@
 function bbloomer_add_premium_support_endpoint() {
     add_rewrite_endpoint( 'anagraficacliente', EP_ROOT | EP_PAGES );
     add_rewrite_endpoint( 'curriculum', EP_ROOT | EP_PAGES );
+    add_rewrite_endpoint( 'newsletter', EP_ROOT | EP_PAGES );
 }
   
 add_action( 'init', 'bbloomer_add_premium_support_endpoint' );
@@ -16,6 +17,7 @@ add_action( 'init', 'bbloomer_add_premium_support_endpoint' );
 function bbloomer_premium_support_query_vars( $vars ) {
     $vars[] = 'anagraficacliente';
     $vars[] = 'curriculum';
+    $vars[] = 'newsletter';
     return $vars;
 }
   
@@ -27,6 +29,7 @@ add_filter( 'query_vars', 'bbloomer_premium_support_query_vars', 0 );
 function bbloomer_add_premium_support_link_my_account( $items ) {
     $items['anagraficacliente'] = 'PERSONAL DATA';
     $items['curriculum'] = 'WORKING POSITION';
+    $items['newsletter'] = 'Newsletter Manage';
     return $items;
 }
 
@@ -277,6 +280,10 @@ function bbloomer_premium_support_content() {
   
 add_action( 'woocommerce_account_anagraficacliente_endpoint', 'bbloomer_premium_support_content' );
 
+/**
+ * My Account Working Postion Menu
+ */ 
+
 function bbloomer_premium_support_content_curriculum() {
    echo '<h3>WORKING POSITION</h3><p>WORKING POSITION</p>'; ?>
 	<?php echo get_template_part( 'template-parts/woocommerce/my-account/working-postion-menu'); ?>
@@ -284,6 +291,31 @@ function bbloomer_premium_support_content_curriculum() {
 <?php }
   
 add_action( 'woocommerce_account_curriculum_endpoint', 'bbloomer_premium_support_content_curriculum' );
+
+function adaci_my_account_newsletter(){ 
+	$user = wp_get_current_user();
+	?>
+
+	<form  method="post" id="user_subscription">
+    <div class="bio cstm-row" bis_skin_checked="1">
+        
+        <h2 class="legend">Newsletter iscrizione</h2><br/><br/>
+       	<p class="full-width"> 
+              <label><input type="checkbox" name="is_subscribed" id="subscription"  title="DESIDERO RICEVERE LE NEWSLETTER" class="checkbox" <?php if(get_user_meta($user->ID, 'is_subscribed',true) == 1){ echo "checked"; } ?>> DESIDERO RICEVERE LE NEWSLETTER</label>
+              <span class="error" style="flex-basis:100%"></span>
+           </p>
+    </div>
+    <div class="buttons-set" bis_skin_checked="1">
+        <p class="back-link"><a href="<?php echo get_site_url('my-account'); ?>"><small>« </small>Indietro</a></p>
+        <button type="button" title="Salva" class="button" id="newsletter_subscription"><span><span>Salva</span></span></button>
+    </div>
+</form>
+	
+<?php }
+add_action( 'woocommerce_account_newsletter_endpoint', 'adaci_my_account_newsletter' );
+
+
+
 
 /**
  * Update image when registion from submit

@@ -287,6 +287,10 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
+    /**
+     * Custom Login OTP Submit
+     */
+
     jQuery( "#otp_submit" ).click(function() {
         
         var formdata = jQuery("#user_otp_verification").serialize();
@@ -320,6 +324,10 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
+    /**
+     * Custom Login OTP Resend
+     */
+
     jQuery( "#resend_otp" ).click(function() {
         
         var formdata = jQuery("#user_otp_verification").serialize();
@@ -341,6 +349,37 @@ jQuery(document).ready(function ($) {
             });
 
         return false;
-    });    
+    });   
+
+    /**
+     * My Account Newsletter
+     */
+
+    jQuery( "#newsletter_subscription" ).click(function() {
+        
+        var checked = 0;
+        if(jQuery("#subscription").is(':checked')){
+            checked = 1;
+        }else{
+            checked = 0;
+        }
+
+        $.ajax({
+                type: 'POST',
+                url: custom_ajax.ajaxurl,
+                data: {
+                    'action' : 'adaci_user_newsletter',
+                    'from_data' : checked,
+                    },
+                dataType: 'json',
+                success: function(response) {
+                   
+                    jQuery('.woocommerce .woocommerce-notices-wrapper').html(response.message);                 
+                      
+                }
+            });
+
+        return false;
+    });  
 
 });

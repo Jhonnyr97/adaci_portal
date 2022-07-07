@@ -743,3 +743,49 @@ function adaci_user_resend_otp(){
      echo $response;
      die();
 }
+
+/**
+ * My Account Newsletter Manage
+ */ 
+
+
+add_action("wp_ajax_adaci_user_newsletter", "adaci_user_newsletter");
+add_action("wp_ajax_nopriv_adaci_user_newsletter", "adaci_user_newsletter");
+
+function adaci_user_newsletter(){
+
+     $formdata = $_POST['from_data'];
+     $user = wp_get_current_user();
+
+     $updated = update_user_meta($user->ID,'is_subscribed',true);
+     if($updated){
+        $message = '<div class="assurena_module_message_box type_error closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Update Data same!!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+        $response = array('status' => 'false' ,'message' => $message);
+     }else{
+        $message = '<div class="assurena_module_message_box type_success closable wpb_animate_when_almost_visible wpb_right-to-left right-to-left wpb_start_animation animated" bis_skin_checked="1">
+                            <div class="message_icon_wrap" role="alert" bis_skin_checked="1"><i class="message_icon "></i></div>
+                            <div class="message_content" bis_skin_checked="1">
+                                <div class="message_text" bis_skin_checked="1"> 
+                                    <ul class="woocommerce-error" role="alert">
+                                        <li>Data Successfully updated</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="message_close_button"></span>
+                        </div>';
+        $response = array('status' => 'true', 'message' => $message);
+     }
+     
+     echo wp_json_encode($response);
+     die();
+}
