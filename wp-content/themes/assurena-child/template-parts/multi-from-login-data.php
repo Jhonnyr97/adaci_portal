@@ -33,6 +33,6 @@
     </div>
     <?php do_action( 'woocommerce_register_form' ); 
     wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
-    <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit next action-button" name="register" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
-    <?php do_action( 'woocommerce_register_form_end' ); ?>
+    <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
+    
 </fieldset>

@@ -328,6 +328,9 @@ function save_account_personal_details(){
    if (isset($_POST['billing_phone'])) {
        update_user_meta($customer_id, 'billing_phone', sanitize_text_field($_POST['billing_phone']));
    }
+   if (isset($_POST['working_current'])) {
+       update_user_meta($customer_id, 'working_current', sanitize_text_field($_POST['working_current']));
+   }
    $response = array("status" => "true");
    echo wp_json_encode($response);  
    die();

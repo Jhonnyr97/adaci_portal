@@ -144,42 +144,50 @@ jQuery(document).ready(function ($) {
             var generic_business_phone = jQuery('#generic_business_phone').val();
             var generic_business_fax = jQuery('#generic_business_fax').val();
             var generic_business_email = jQuery('#generic_business_email').val();
+            if(business_name == ""){
 
-            $.ajax({
-                type: 'POST',
-                url: custom_ajax.ajaxurl,
-                data: {
-                    'action' : 'adaci_company_data_insert',
-                    'business_name' : business_name,
-                    'fiscal_code' : fiscal_code,
-                    'vat_number' : vat_number,
-                    'number_of_employees' : number_of_employees,
-                    'commodity_area' : commodity_area,
-                    'turnover_class' : turnover_class,
-                    'company_purchased_value' : company_purchased_value,
-                    'note' : note,
-                    'address' : address,
-                    'postal_code' : postal_code,
-                    'common' : common,
-                    'province' : province,
-                    'region' : region,
-                    'country' : country,
-                    'generic_business_phone' : generic_business_phone,
-                    'generic_business_fax' : generic_business_fax,
-                    'generic_business_email' : generic_business_email,
-                    },
-                dataType: 'json',
-                success: function(response) {
-                    if(response.status === "success"){
-                      jQuery(".new-company-register").hide();
-                      jQuery('#new-company-reg').hide();
-                      alert("Please Select Your Company Form Dropdown");
+                alert("Please Enter require company data");
+            }else{
 
-                    }else{
 
+                $.ajax({
+                    type: 'POST',
+                    url: custom_ajax.ajaxurl,
+                    data: {
+                        'action' : 'adaci_company_data_insert',
+                        'business_name' : business_name,
+                        'fiscal_code' : fiscal_code,
+                        'vat_number' : vat_number,
+                        'number_of_employees' : number_of_employees,
+                        'commodity_area' : commodity_area,
+                        'turnover_class' : turnover_class,
+                        'company_purchased_value' : company_purchased_value,
+                        'note' : note,
+                        'address' : address,
+                        'postal_code' : postal_code,
+                        'common' : common,
+                        'province' : province,
+                        'region' : region,
+                        'country' : country,
+                        'generic_business_phone' : generic_business_phone,
+                        'generic_business_fax' : generic_business_fax,
+                        'generic_business_email' : generic_business_email,
+                        },
+                    dataType: 'json',
+                    success: function(response) {
+                        if(response.status === "success"){
+                          jQuery(".new-company-register").hide();
+                          jQuery('#new-company-reg').hide();
+                          alert("Please Select Your Company Form Dropdown");
+
+                        }else{
+                            alert("Please Try again!!");
+                        }
                     }
-                }
-            });
+                });
+            }
+
+            return false;
     });
 
     /**

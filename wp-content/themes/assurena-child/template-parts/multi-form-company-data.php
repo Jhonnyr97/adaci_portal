@@ -29,7 +29,7 @@
               </select>
            </p> 
            <p style="flex-basis:100%; display:none;"  class="add-new-company">
-              <a href="javascript:void(0);" id="new-company-reg" >Add New Company Data</a>         
+              <a href="javascript:void(0);" id="new-company-reg" class="reg_custom_button">Add New Company Data</a>         
            </p>
            <div class="new-company-register hide" style="display:none">
               <div class="company-data cstm-row">
@@ -234,8 +234,8 @@
                        <label for="note">Note</label>
                        <textarea id="note" name="note"></textarea>
                  </p>
-                 <p>
-                       <a href="javascript:void(0);" name="company_data_submit" id="company_data_submit">Company Data Submit</a>
+                 <p class="company_button">
+                       <a href="javascript:void(0);" name="company_data_submit" id="company_data_submit" class="reg_custom_button">Company Data Submit</a>
                  </p>
               </div>
            </div>

@@ -357,3 +357,12 @@ function bbloomer_enctype_custom_registration_forms() {
    echo 'enctype="multipart/form-data"';
 }
 
+
+add_filter( 'woocommerce_process_registration_errors', 'bbloomer_validate_woo_account_registration_fields', 10, 4 );
+function bbloomer_validate_woo_account_registration_fields( $errors, $username, $password, $email ) {  
+    
+    if ( email_exists($email) ) {
+        $errors->add( 'billing_first_name_error', __( '<strong>Error</strong>: First name is required!', 'woocommerce' ) );
+    }
+    return $errors;
+}

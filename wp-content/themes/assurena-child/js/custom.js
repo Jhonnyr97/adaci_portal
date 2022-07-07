@@ -150,6 +150,7 @@ jQuery( document ).ready( function( $ ) {
         }else{
             jQuery('.working-position').css("display", "block");
         }
+        return false;
     });
 
     jQuery("#new-company-reg").click(function(){
@@ -160,6 +161,7 @@ jQuery( document ).ready( function( $ ) {
         } else {
                 jQuery("#new-company-reg").text('Add New Company Data');
         }
+        return false;
     });
     // $() will work as an alias for jQuery() inside of this function
     // jQuery('input[type="date"].required-field , input[type="text"].required-field, select.required-field').blur(function(){
@@ -257,6 +259,23 @@ jQuery( document ).ready( function( $ ) {
         // in the "action" attribute of the form when valid
         submitHandler: function(form){
           form.submit();
+        }
+      });
+
+
+    /**
+     *  Regitsion Form on checkbox cheked chnage type Working Postion
+     */ 
+     jQuery('#working_current').click(function() {
+        if (jQuery(this).is(':checked')) {
+                  
+           jQuery("input[name='to_the_date']").attr('disabled', 'disabled');
+          jQuery(this).val('1');
+        }else{
+         
+           jQuery("input[name='to_the_date']").removeAttr('disabled');
+          jQuery(this).val('0');
+          
         }
       });
 

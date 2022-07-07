@@ -6,16 +6,18 @@
          if ( is_admin() ) return;
          if ( is_user_logged_in() ) return;
       } ?>
+      <div class="woocommerce-notices-wrapper" bis_skin_checked="1"></div>
       <div class="container-fluid">
     	<div class="row justify-content-center">
         	<div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
             	<div class="card px-0 pt-4 pb-0 mt-3 mb-3">
             		<!-- <h2 id="heading">Sign Up Your User Account</h2>
                 	<p>Fill all form field to go to next step</p> -->
+                	
                 	<?php if(!is_checkout()){ ?>
       					<form method="post" id="msform" class="woocommerce-form woocommerce-form-register register" <?php do_action( 'woocommerce_register_form_tag' ); ?>>
          				<?php }
-         				do_action( 'woocommerce_register_form_start' );  do_action( 'woocommerce_register_form' ); ?>
+         				do_action( 'woocommerce_register_form_start' );  ?>
          					<ul id="progressbar">
 		                        <li class="active" id="personal"><strong>PERSONAL DATA</strong></li>
 		                        <li id="payment"><strong>COMPANY</strong></li>
@@ -34,6 +36,7 @@
 
 		                    <?php echo get_template_part( 'template-parts/multi-from-login-data'); ?>
 
+		                    <?php do_action( 'woocommerce_register_form_end' ); ?>
          				</form>
 
             	</div>

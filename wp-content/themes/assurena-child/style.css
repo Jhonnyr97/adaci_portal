@@ -281,6 +281,40 @@ label.language-options input[type="checkbox"] {
 }
 /* End to added by Hetal*/
 
+.reg_custom_button {
+    width: auto;
+    background-color: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
+.reg_custom_button:hover {
+    background-color: #311B92;
+    color: #ffffff;
+}
+.company_button{
+    width: 100% !important;
+}
+.company_button .reg_custom_button{
+    float: left;
+}
+.woocommerce-form-register__submit{
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
 
 @media screen and (min-width:767px) {
     .name .small{ width: 9%; }

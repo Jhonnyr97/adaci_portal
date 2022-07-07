@@ -93,7 +93,6 @@
                  <option value="managerial_consultancy">Managerial consultancy</option>
                  <option value="technical_advice">Technical advice</option>
                  <option value="buildings">Buildings</option>
-                 <option value="buildings">Buildings</option>
                  <option value="leather_and_hides">Leather and hides</option>
                  <option value="fibers_and_fabrics">Fibers and fabrics</option>
                  <option value="training">Training</option>
@@ -130,7 +129,7 @@
                  <option value="i_don't_take_care_of_purchases">I don't take care of purchases</option>
               </select>   
            </p>
-           <p style="flex-basis: 100%;">
+           <p>
               <label for="personal_purchased_value">Personal purchased value</label>
               <select name="personal_purchased_value" id="personal_purchased_value" class="required-field">
                  <option value="">Select Value</option>
@@ -146,12 +145,16 @@
               </select>
            </p>
            <p>
+              <label for="working_current">Currently Working</label>
+              <label class="language-options"><input type="checkbox" name="working_current" value="0" id="working_current" />Yes</label>
+           </p>
+           <p>
               <label for="from_the_date">From the</label>
-              <input type="text" id="from_the_date" name="from_the_date"> 
+              <input type="date" id="from_the_date" name="from_the_date"> 
            </p>
            <p>
               <label for="to_the_date">To the</label>
-              <input type="text" id="to_the_date" name="to_the_date"> 
+              <input type="date" id="to_the_date" name="to_the_date"> 
            </p>
            
         </div>

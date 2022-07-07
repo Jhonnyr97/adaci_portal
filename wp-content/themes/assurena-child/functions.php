@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'stl_child_scripts' );
 
  if ( ! defined( 'ADACI_C_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'ADACI_C_VERSION', '1.2.1' );
+	define( 'ADACI_C_VERSION', '1.3.1' );
 }
 
 /**
