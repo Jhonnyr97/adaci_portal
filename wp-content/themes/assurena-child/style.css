@@ -315,7 +315,9 @@ label.language-options input[type="checkbox"] {
     margin: 10px 0px 10px 5px;
     float: right;
 }
-
+/* Woocomerces registion
+*/
+.user-registration-page .woocommerce-message .message_text { margin-top: 15px; }
 @media screen and (min-width:767px) {
     .name .small{ width: 9%; }
     .name .medium{ width: 29%; }

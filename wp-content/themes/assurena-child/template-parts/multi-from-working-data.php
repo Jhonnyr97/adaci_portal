@@ -75,8 +75,8 @@
                  </optgroup>
               </select>
            </p>
-           <p class="full-width">
-              <label for="supplies-purchased" style="flex-basis:100%">Type of supplies purchased*</label>
+           <p>
+              <label for="supplies-purchased">Type of supplies purchased*</label>
               <select name="supplies-purchased" id="supplies-purchased" class="required-field" multiple>
                  <option value="office_furniture">Office furniture</option>
                  <option value="insurance">Insurance</option>
@@ -144,8 +144,8 @@
                  <option value="more-than-500">over 500</option>
               </select>
            </p>
-           <p>
-              <label for="working_current">Currently Working</label>
+           <p class="full-width">
+              <label for="working_current" style="flex-basis:100%">Currently Working</label>
               <label class="language-options"><input type="checkbox" name="working_current" value="0" id="working_current" />Yes</label>
            </p>
            <p>

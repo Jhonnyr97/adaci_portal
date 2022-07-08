@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
                         /*jQuery("#select_address").html(response.address)*/
 
                     }else{
-
+                        jQuery(".search-company").hide();
                         jQuery(".add-new-company").show();
 
                     }

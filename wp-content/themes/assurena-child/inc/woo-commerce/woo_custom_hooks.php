@@ -358,11 +358,20 @@ function bbloomer_enctype_custom_registration_forms() {
 }
 
 
-add_filter( 'woocommerce_process_registration_errors', 'bbloomer_validate_woo_account_registration_fields', 10, 4 );
-function bbloomer_validate_woo_account_registration_fields( $errors, $username, $password, $email ) {  
-    
-    if ( email_exists($email) ) {
-        $errors->add( 'billing_first_name_error', __( '<strong>Error</strong>: First name is required!', 'woocommerce' ) );
+/**
+ * Show Custom validation error
+ */ 
+/*function wooc_validate_extra_register_fields( $username, $email, $validation_errors ) {
+	
+
+    if ( isset( $_POST['billing_first_name'] ) && empty( $_POST['billing_first_name'] ) ) {
+        $validation_errors->add( 'first_name_error', __( '<strong>Error</strong>: First Name is required!.', 'woocommerce' ) );
     }
-    return $errors;
+
+    if ( isset( $_POST['last_name'] ) && empty( $_POST['last_name'] )  ) {
+        $validation_errors->add( 'last_name_error', __( '<strong>Error</strong>: Last Name is required!.', 'woocommerce' ) );
+    }
+    return $validation_errors;
 }
+
+add_action( 'woocommerce_register_post', 'wooc_validate_extra_register_fields', 10, 3 );*/

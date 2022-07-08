@@ -6,6 +6,7 @@
          if ( is_admin() ) return;
          if ( is_user_logged_in() ) return;
       } ?>
+        <?php wc_print_notices(); ?>
       <div class="woocommerce-notices-wrapper" bis_skin_checked="1"></div>
       <div class="container-fluid">
     	<div class="row justify-content-center">

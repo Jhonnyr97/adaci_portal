@@ -157,7 +157,7 @@ jQuery( document ).ready( function( $ ) {
         jQuery(".new-company-register").toggleClass('show');
         jQuery(".new-company-register").slideToggle(1000);
         if(jQuery("#new-company-reg").text() == "Add New Company Data"){
-                jQuery("#new-company-reg").text('Cancle');
+                jQuery("#new-company-reg").text('Cancel');
         } else {
                 jQuery("#new-company-reg").text('Add New Company Data');
         }
