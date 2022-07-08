@@ -306,7 +306,7 @@ function adaci_my_account_newsletter(){
            </p>
     </div>
     <div class="buttons-set" bis_skin_checked="1">
-        <p class="back-link"><a href="<?php echo get_site_url('my-account'); ?>"><small>« </small>Indietro</a></p>
+        <p class="back-link"><a href="<?php echo get_site_url().'/my-account'; ?>"><small>« </small>Indietro</a></p>
         <button type="button" title="Salva" class="button" id="newsletter_subscription"><span><span>Salva</span></span></button>
     </div>
 </form>
@@ -375,3 +375,24 @@ function bbloomer_enctype_custom_registration_forms() {
 }
 
 add_action( 'woocommerce_register_post', 'wooc_validate_extra_register_fields', 10, 3 );*/
+
+/**
+ *  Chnage My Account page menu postion.
+ */
+
+add_filter( 'woocommerce_account_menu_items', 'misha_menu_links_reorder' );
+
+function misha_menu_links_reorder( $menu_links ){
+	
+	return array(
+		'dashboard' => __( 'Dashboard', 'woocommerce' ),
+		'edit-account' => __(  'Account Information', 'woocommerce' ),
+		'anagraficacliente' => __( 'PERSONAL DATA', 'woocommerce' ),
+		'curriculum' => __( 'WORKING POSITION', 'woocommerce' ),
+		'edit-address' => __(  'Addresses', 'woocommerce' ),
+		'orders' => __( 'MY Orders', 'woocommerce' ),
+		//'newsletter' => __( 'Newsletter Manage', 'woocommerce' ),
+		//'downloads' => __( 'Downloads', 'woocommerce' ),
+		'customer-logout' => __( 'Logout', 'woocommerce' )
+	);
+}

@@ -72,7 +72,7 @@ From your account dashboard, you have the ability to see a snapshot of your acco
 	</div>
 	<div class="newsletter">
 		<h6>NEWSLETTER</h6>
-		<a href="javascript:void(0);">EDIT</a>
+		<a href="<?php echo site_url().'/my-account/newsletter/'; ?>">EDIT</a>
 		<p>You are not subscribed to any newsletter at the moment.</p>
 	</div>
 </div>
