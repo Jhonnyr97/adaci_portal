@@ -331,6 +331,9 @@ function save_account_personal_details(){
    if (isset($_POST['working_current'])) {
        update_user_meta($customer_id, 'working_current', sanitize_text_field($_POST['working_current']));
    }
+
+    update_user_meta($customer_id, 'registration_type', 'full-registration');
+   
    $response = array("status" => "true");
    echo wp_json_encode($response);  
    die();
@@ -726,7 +729,7 @@ function adaci_user_resend_otp(){
         global $wpdb; 
         $OTP = adaci_login_otp_generator();
          
-         $to = $_POST['user_authentication'];
+        $to = $_POST['user_authentication'];
         $subject = 'Adaci IT Website Login OTP';
         $message = 'Your OTP is '.$OTP.' for login Adaci IT Website';
         global $wpdb;

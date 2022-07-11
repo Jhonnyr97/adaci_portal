@@ -30,6 +30,8 @@ require get_stylesheet_directory() . '/inc/woo-commerce/ajax.php';
 
 /*}*/
 
+require get_stylesheet_directory() . '/inc/email-reminder/current-working.php';
+
 
 function custom_scripts() {
 	// Custom JS

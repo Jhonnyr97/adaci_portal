@@ -359,24 +359,6 @@ function bbloomer_enctype_custom_registration_forms() {
 
 
 /**
- * Show Custom validation error
- */ 
-/*function wooc_validate_extra_register_fields( $username, $email, $validation_errors ) {
-	
-
-    if ( isset( $_POST['billing_first_name'] ) && empty( $_POST['billing_first_name'] ) ) {
-        $validation_errors->add( 'first_name_error', __( '<strong>Error</strong>: First Name is required!.', 'woocommerce' ) );
-    }
-
-    if ( isset( $_POST['last_name'] ) && empty( $_POST['last_name'] )  ) {
-        $validation_errors->add( 'last_name_error', __( '<strong>Error</strong>: Last Name is required!.', 'woocommerce' ) );
-    }
-    return $validation_errors;
-}
-
-add_action( 'woocommerce_register_post', 'wooc_validate_extra_register_fields', 10, 3 );*/
-
-/**
  *  Chnage My Account page menu postion.
  */
 
@@ -395,4 +377,18 @@ function misha_menu_links_reorder( $menu_links ){
 		//'downloads' => __( 'Downloads', 'woocommerce' ),
 		'customer-logout' => __( 'Logout', 'woocommerce' )
 	);
+}
+
+
+
+/**
+ * Show Custom validation error
+ */ 
+
+add_filter('registration_errors', 'filter_registration_errors');
+function filter_registration_errors($error){
+   if ( $error->get_error_messages( 'email_exists' ) ) {
+       $error = new WP_Error( 'email_exists', "Your email is already registered. Sign in using the grey SIGN-IN tab top left. Thanks!" );
+   }
+   return $error;
 }
