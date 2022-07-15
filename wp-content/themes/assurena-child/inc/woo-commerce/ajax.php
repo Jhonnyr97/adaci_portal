@@ -32,6 +32,7 @@ function adaci_company_data_get() {
 	 echo wp_json_encode($response);
 	 die();
 }
+
 add_action("wp_ajax_adaci_company_address_data_get", "adaci_company_address_data_get");
 add_action("wp_ajax_nopriv_adaci_company_address_data_get", "adaci_company_address_data_get");
 
@@ -54,8 +55,6 @@ function adaci_company_address_data_get() {
 	 echo wp_json_encode($response);
 	 die();
 }
-
-
 
 add_action("wp_ajax_adaci_company_data_insert", "adaci_company_data_insert");
 add_action("wp_ajax_nopriv_adaci_company_data_insert", "adaci_company_data_insert");
@@ -97,18 +96,14 @@ function adaci_company_data_insert() {
   die();
 }
 
-
-
-
 add_action("wp_ajax_save_account_personal_details", "save_account_personal_details");
 add_action("wp_ajax_nopriv_save_account_personal_details", "save_account_personal_details");
-
-
 
 function save_account_personal_details(){
 	$formdata = $_POST['formdata'];
     parse_str($formdata, $_POST);
-        
+
+   
     $customer_id = $_POST['user_id'];
     if (isset($_POST['title'])) {
        update_user_meta($customer_id, 'title', sanitize_text_field($_POST['title']));
@@ -331,14 +326,16 @@ function save_account_personal_details(){
    if (isset($_POST['working_current'])) {
        update_user_meta($customer_id, 'working_current', sanitize_text_field($_POST['working_current']));
    }
-
-    update_user_meta($customer_id, 'registration_type', 'full-registration');
-   
+   if (isset($_POST['registration_type'])) {
+       update_user_meta($customer_id, 'registration_type', sanitize_text_field($_POST['registration_type']));
+   }
    $response = array("status" => "true");
    echo wp_json_encode($response);  
    die();
 }
 
+
+//add_action( 'woocommerce_created_customer', 'save_account_personal_details' );
 /**
  *  Insert Comapny with user id my account working postion 
  */ 
@@ -467,8 +464,6 @@ function adaci_user_working_postion_company_save() {
     echo wp_json_encode($response);
      die();
 }
-
-
 
 /**
 * Custom Login Ajax Function
@@ -605,8 +600,6 @@ function adaci_custom_login_for_user() {
 * User OTP Verifictaion and login.
 */
 
-
-
 add_action("wp_ajax_adaci_user_otp_verification", "adaci_user_otp_verification");
 add_action("wp_ajax_nopriv_adaci_user_otp_verification", "adaci_user_otp_verification");
 
@@ -715,7 +708,6 @@ function adaci_user_otp_verification(){
  * Resnd OTP Custo Login
  */ 
 
-
 add_action("wp_ajax_adaci_user_resend_otp", "adaci_user_resend_otp");
 add_action("wp_ajax_nopriv_adaci_user_resend_otp", "adaci_user_resend_otp");
 
@@ -753,7 +745,6 @@ function adaci_user_resend_otp(){
 /**
  * My Account Newsletter Manage
  */ 
-
 
 add_action("wp_ajax_adaci_user_newsletter", "adaci_user_newsletter");
 add_action("wp_ajax_nopriv_adaci_user_newsletter", "adaci_user_newsletter");
@@ -795,3 +786,20 @@ function adaci_user_newsletter(){
      echo wp_json_encode($response);
      die();
 }
+
+/**
+* Registion custom filed save
+*/
+
+add_action( 'woocommerce_created_customer', 'adaci_short_registration_form',10,3 );
+function adaci_short_registration_form($customer_id, $new_customer_data, $password_generated){
+    
+    $languages = implode(',', $_POST['languages']);
+    update_user_meta($customer_id, 'languages', sanitize_text_field($languages));
+    update_user_meta($customer_id,'registration_type', sanitize_text_field($_POST['registration_type']));
+}
+
+
+/**
+*  After login show popup
+*/

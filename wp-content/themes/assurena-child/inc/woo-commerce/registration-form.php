@@ -1,6 +1,6 @@
 <?php 
 
-   //add_shortcode( 'wc_reg_form_bbloomer', 'bbloomer_separate_registration_form' );
+   add_shortcode( 'wc_reg_form_bbloomer', 'bbloomer_separate_registration_form' );
    
    function bbloomer_separate_registration_form() {
       if(!is_checkout()){ 
@@ -15,7 +15,7 @@
 ?>
       
 
-      
+     <?php /* 
       <div class="info cstm-row">
          <?php // if(!is_checkout()){ ?>
             <!-- Radio Button For for select User Reg. & Company Reg. -->
@@ -24,7 +24,7 @@
             <label><input type="radio" name="userRegistr" value="compnay"> I am Company</label>
             </p>
          <?php // } ?>   
-      </div>
+      </div>*/ ?>
             <?php if(!is_checkout()){ ?>
       <form method="post" class="woocommerce-form woocommerce-form-register register" <?php do_action( 'woocommerce_register_form_tag' ); ?> >
          <?php } ?>

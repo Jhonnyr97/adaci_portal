@@ -297,19 +297,19 @@ function adaci_my_account_newsletter(){
 	?>
 
 	<form  method="post" id="user_subscription">
-    <div class="bio cstm-row" bis_skin_checked="1">
-        
-        <h2 class="legend">Newsletter iscrizione</h2><br/><br/>
-       	<p class="full-width"> 
-              <label><input type="checkbox" name="is_subscribed" id="subscription"  title="DESIDERO RICEVERE LE NEWSLETTER" class="checkbox" <?php if(get_user_meta($user->ID, 'is_subscribed',true) == 1){ echo "checked"; } ?>> DESIDERO RICEVERE LE NEWSLETTER</label>
-              <span class="error" style="flex-basis:100%"></span>
-           </p>
-    </div>
-    <div class="buttons-set" bis_skin_checked="1">
-        <p class="back-link"><a href="<?php echo get_site_url().'/my-account'; ?>"><small>« </small>Indietro</a></p>
-        <button type="button" title="Salva" class="button" id="newsletter_subscription"><span><span>Salva</span></span></button>
-    </div>
-</form>
+	    <div class="bio cstm-row" bis_skin_checked="1">
+	        
+	        <h2 class="legend">Newsletter iscrizione</h2><br/><br/>
+	       	<p class="full-width"> 
+	              <label><input type="checkbox" name="is_subscribed" id="subscription"  title="DESIDERO RICEVERE LE NEWSLETTER" class="checkbox" <?php if(get_user_meta($user->ID, 'is_subscribed',true) == 1){ echo "checked"; } ?>> DESIDERO RICEVERE LE NEWSLETTER</label>
+	              <span class="error" style="flex-basis:100%"></span>
+	           </p>
+	    </div>
+	    <div class="buttons-set" bis_skin_checked="1">
+	        <p class="back-link"><a href="<?php echo get_site_url().'/my-account'; ?>"><small>« </small>Indietro</a></p>
+	        <button type="button" title="Salva" class="button" id="newsletter_subscription"><span><span>Salva</span></span></button>
+	    </div>
+	</form>
 	
 <?php }
 add_action( 'woocommerce_account_newsletter_endpoint', 'adaci_my_account_newsletter' );

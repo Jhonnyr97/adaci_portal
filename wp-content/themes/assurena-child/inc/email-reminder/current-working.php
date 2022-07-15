@@ -66,12 +66,9 @@ function adaci_email_reminder_menu_page(){  ?>
     	wp_safe_redirect(admin_url('admin.php?page=email-reminder&message-email=success'));
     	
     }
-    	
-
-    
-
 }
-if($_REQUEST['message-email'] == "success" && get_option('email_reminder_message') == 1){
+
+if($_REQUEST['message-email'] == "success" && get_option('email_reminder_message') == 1 && get_admin_url() == admin_url('admin.php?page=email-reminder')){
 	update_option( 'email_reminder_message', 0);
 	add_action( 'admin_notices', 'sample_admin_notice__success' );
 }

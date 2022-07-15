@@ -5,7 +5,11 @@
                 <h2 class="fs-title">PERSONAL DATA:</h2>
             </div>
             <div class="col-5">
-                <h2 class="steps">Step 1 - 4</h2>
+               <?php if(is_page('registration')){
+                      echo "<h2 class='steps'>Step 1 - 4</h2>";
+                  }else{
+                     echo "<h2 class='steps'>Step 1 - 2</h2>";
+                  } ?>
             </div>
         </div>
         <div class="name cstm-row">
@@ -27,15 +31,15 @@
            </p>
            <p class="medium">
               <label for="billing_first_name">First Name*</label>
-              <input type="text" id="billing_first_name" name="billing_first_name" class="required-field">
+              <input type="text" id="billing_first_name" name="billing_first_name" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'billing_first_name',true); ?>">
            </p>
            <p class="medium">
               <label for="middle_name">Middle Name</label>
-              <input type="text" id="middle_name" name="middle_name">
+              <input type="text" id="middle_name" name="middle_name" value="<?php echo get_user_meta(get_current_user_id(),'middle_name',true); ?>">
            </p>
            <p class="medium">
               <label for="billing_last_name">Surname*</label>
-              <input type="text" id="billing_last_name" name="billing_last_name" class="required-field">
+              <input type="text" id="billing_last_name" name="billing_last_name" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'billing_last_name',true); ?>">
               
            </p>
         </div>
@@ -47,7 +51,7 @@
            </p>
            <p>
               <label for="place_of_birth">Place of Birth*</label>
-              <input type="text" name="place_of_birth" id="place_of_birth" class="required-field">
+              <input type="text" name="place_of_birth" id="place_of_birth" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'place_of_birth',true); ?>">
               
            </p>
            <?php $allCountries = getCountries(); ?>
@@ -83,28 +87,28 @@
            </p>
            <p>
               <label for="tax_code">Tax Code*</label>
-              <input type="text" name="tax_code" id="tax_code" class="required-field">
+              <input type="text" name="tax_code" id="tax_code" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'tax_code',true); ?>">
               
            </p>
         </div>
         <div class="residence-address cstm-row">
            <p>
               <label for="billing_address_1">Residence Address Line 1*</label>
-              <input type="text" id="billing_address_1" name="billing_address_1" class="required-field">
+              <input type="text" id="billing_address_1" name="billing_address_1" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'billing_address_1',true); ?>">
               
            </p>
            <p>
               <label for="billing_address_2">Residence Address Line 2</label>
-              <input type="text" id="billing_address_2" name="billing_address_2">
+              <input type="text" id="billing_address_2" name="billing_address_2" value="<?php echo get_user_meta(get_current_user_id(),'billing_address_2',true); ?>">
            </p>
            <p>
               <label for="billing_postcode">Postcode of Residence*</label>
-              <input type="text" id="billing_postcode" name="billing_postcode" class="required-field">
+              <input type="text" id="billing_postcode" name="billing_postcode" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'billing_postcode',true); ?>">
               
            </p>
            <p>
               <label for="billing_city">Municipality of Residence*</label>
-              <input type="text" id="billing_city" name="billing_city" class="required-field">
+              <input type="text" id="billing_city" name="billing_city" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'billing_city',true); ?>">
               
            </p>
            <p>
@@ -125,7 +129,7 @@
            </p>
            <p>
               <label for="region-residenc_">Region of Residence*</label>
-              <input type="text" id="region_residence" name="region_residence" class="required-field">
+              <input type="text" id="region_residence" name="region_residence" class="required-field" value="<?php echo get_user_meta(get_current_user_id(),'region_residence',true); ?>">
               
            </p>
         </div>
@@ -156,8 +160,8 @@
         <div class="bio cstm-row">
            <p class="full-width">
               <label for="languages" style="flex-basis:100%">Languages*</label>
-              <label class="language-options"><input type="checkbox" name="languages[]" value="Albanese" />Albanese</label>
               <label class="language-options"><input type="checkbox" name="languages[]" value="Arabo" />Arabo</label>
+              <label class="language-options"><input type="checkbox" name="languages[]" value="Albanese" />Albanese</label>
               <label class="language-options"><input type="checkbox" name="languages[]" value="Bulgaro" />Bulgaro</label>
               <label class="language-options"><input type="checkbox" name="languages[]" value="Cinese" />Cinese</label>
               <label class="language-options"><input type="checkbox" name="languages[]" value="Francese" />Francese</label>
@@ -231,15 +235,15 @@
            </p>
            <p>
               <label for="linkedin_url">Linkedin URL</label>
-              <input type="text" id="linkedin_url" name="linkedin_url">
+              <input type="text" id="linkedin_url" name="linkedin_url" value="<?php echo get_user_meta(get_current_user_id(),'linkedin_url',true); ?>">
            </p>
            <p>
               <label for="preferred_correspondence_address_1">Preferred Correspondence Address Line 1</label>
-              <input type="text" id="preferred_correspondence_address_1" name="preferred_correspondence_address_1">
+              <input type="text" id="preferred_correspondence_address_1" name="preferred_correspondence_address_1" value="<?php echo get_user_meta(get_current_user_id(),'preferred_correspondence_address_1',true); ?>">
            </p>
            <p>
               <label for="preferred_correspondence_address_2">Preferred Correspondence Address Line 2</label>
-              <input type="text" id="preferred_correspondence_address_2" name="preferred_correspondence_address_2">
+              <input type="text" id="preferred_correspondence_address_2" name="preferred_correspondence_address_2" value="<?php echo get_user_meta(get_current_user_id(),'preferred_correspondence_address_2',true); ?>">
            </p>
         </div> 
     </div>

@@ -4,7 +4,7 @@
    function bbloomer_separate_registration_multistep_form() {
       if(!is_checkout()){ 
          if ( is_admin() ) return;
-         if ( is_user_logged_in() ) return;
+         if ( is_user_logged_in() && get_user_meta(get_current_user_id(),'registration_type', true) != 'short-registration') return;
       } ?>
         <?php wc_print_notices(); ?>
       <div class="woocommerce-notices-wrapper" bis_skin_checked="1"></div>
@@ -28,7 +28,7 @@
 		                    <div class="progress">
 		                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
 		                    </div> <br> <!-- fieldsets -->
-		                    
+		                    <input type="hidden" name="registration_type" value="full-registration">
 		                    <?php echo get_template_part( 'template-parts/multi-form-personal-data'); ?>
 
 		                    <?php echo get_template_part( 'template-parts/multi-form-company-data'); ?>

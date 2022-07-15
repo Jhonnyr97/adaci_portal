@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'stl_child_scripts' );
 
  if ( ! defined( 'ADACI_C_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'ADACI_C_VERSION', '1.3.4' );
+	define( 'ADACI_C_VERSION', '1.3.8' );
 }
 
 /**
@@ -27,6 +27,7 @@ require get_stylesheet_directory() . '/inc/woo-commerce/ajax.php';
 
 	require get_stylesheet_directory() . '/inc/woo-commerce/woo_custom_hooks.php';
 	require get_stylesheet_directory() . '/inc/woo-commerce/resgistration-multi-from.php';
+	require get_stylesheet_directory() . '/inc/leran-dash/learn-dash.php';
 
 /*}*/
 
@@ -38,7 +39,7 @@ function custom_scripts() {
 	wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri() . '/js/custom.js', array(), ADACI_C_VERSION , true );
 	
 	// validation js
-	if(is_page('registration') || is_page('multi-step-form') || is_page('checkout-2') || is_page('my-account')) {
+	if(is_page('registration') || is_page('course-registration') || is_page('checkout-2') || is_page('my-account')) {
 		wp_enqueue_script( 'validator-js', get_stylesheet_directory_uri() . '/js/jquery.validate.min.js', array(), ADACI_C_VERSION , true );
 		
 	}
@@ -304,4 +305,32 @@ function get_user_activation_url($user_id){
 
 		return $data;
 		
+}
+
+/**
+* show popup after user login for comaplte register
+*/
+global $wp;
+$current_url = add_query_arg( $wp->query_vars);
+
+if(strpos($current_url, 'courses') !== false && is_user_logged_in()){
+		if(get_user_meta(get_current_user_id(),'registration_type', true) == 'short-registration'){ 
+			add_action('wp_footer','popup_script_add');
+		}
+}
+
+function popup_script_add(){ ?>
+
+		<script type="text/javascript">						
+		  setTimeout(function(){
+		  	jQuery('.modal').toggleClass('is-visible');
+
+		  }, 5000);						  
+	
+      jQuery('body #reg_com_popup .modal-close').click(function() {
+          jQuery('.modal').toggleClass('is-visible');
+      });
+		</script>
+
+<?php
 }
