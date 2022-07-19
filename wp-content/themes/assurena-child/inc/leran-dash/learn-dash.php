@@ -1,6 +1,19 @@
 <?php
 
 /**
+ * Example usage for learndash_login_model_register_url filter.
+ */
+add_filter(
+    'learndash_login_model_register_url',
+    function( $registration_url ) {
+        // May add any custom logic using $registration_url.
+ 
+        // Always return $registration_url.
+        return get_site_url()."/short-registration";
+    }
+);
+
+/**
  * Free Course Short Registion Form
  */
 
